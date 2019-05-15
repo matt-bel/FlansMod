@@ -2,6 +2,10 @@ package com.flansmod.common.tools;
 
 import io.netty.buffer.ByteBuf;
 
+import java.util.List;
+
+import net.minecraft.block.material.Material;
+import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
