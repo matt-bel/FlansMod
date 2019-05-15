@@ -26,14 +26,6 @@ public class EntityParachute extends Entity implements IEntityAdditionalSpawnDat
 		ignoreFrustumCheck = true;
 		System.out.println(w.isRemote ? "Client paraspawn" : "Server paraspawn");
 	}
-	
-	public EntityParachute(World w, ToolType t, EntityPlayer player)
-	{
-		this(w);
-		type = t;
-		setPosition(player.posX, player.posY, player.posZ);
-	}
-	
 
 	public EntityParachute(World w, ToolType t, EntityPlayer player)
 	{
