@@ -489,7 +489,7 @@ public abstract class EntityDriveable extends Entity implements IControllable, I
 					{
 						//Set the damage to 0 and consume one ammo item (unless in creative)
 						bulletItemStack.setItemDamage(0);
-						if(seats[0].riddenByEntity instanceof EntityPlayer && !((EntityPlayer)seats[0].riddenByEntity).capabilities.isCreativeMode)
+						if(!((EntityPlayer)seats[0].riddenByEntity).capabilities.isCreativeMode)
 						{
 							bulletItemStack.stackSize--;
 							if(bulletItemStack.stackSize <= 0)
