@@ -66,10 +66,10 @@ AddRecipeParts rightTrack 1 catTrack
 AddDye 10 gray
 
 //Health and collision
-SetupPart turret 650 -25 21 -23 46 12 46
-SetupPart core 750 -63 -4 -15 107 23 30
-SetupPart rightTrack 375 -57 -9 15 123 20 16
-SetupPart leftTrack 375 -57 -9 -32 123 20 17
+SetupPart turret 3250 -25 21 -23 46 12 46
+SetupPart core 3750 -63 -4 -15 107 23 30
+SetupPart rightTrack 1875 -57 -9 15 123 20 16
+SetupPart leftTrack 1875 -57 -9 -32 123 20 17
 
 BulletDetection 5
 

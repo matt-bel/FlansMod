@@ -12,7 +12,6 @@ RoundsPerItem 24
 //The maximum stack size of a stack of these
 MaxStackSize 1
 //The damage multiplier caused by the bullet on hitting an entity
-Damage 10
 DamageVsLiving 35
 DamageVsVehicles 50
 //Size of explosion caused

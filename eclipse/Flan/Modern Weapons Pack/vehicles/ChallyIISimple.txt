@@ -60,8 +60,8 @@ AddRecipeParts rightTrack 1 catTrack
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 10 gray
 //Health and collision
-SetupPart core 1000 -69 0 -33 137 23 66
-SetupPart rightTrack 300 -69 -10 -33 136 10 12
-SetupPart leftTrack 300 -69 -10 21 136 10 12
-SetupPart turret 500 -48 23 -27 92 16 54
+SetupPart core 7000 -69 0 -33 137 23 66
+SetupPart rightTrack 2100 -69 -10 -33 136 10 12
+SetupPart leftTrack 2100 -69 -10 21 136 10 12
+SetupPart turret 3500 -48 23 -27 92 16 54
 BulletDetection 7

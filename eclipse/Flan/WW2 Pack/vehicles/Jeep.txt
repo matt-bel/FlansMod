@@ -67,9 +67,9 @@ AddRecipeParts backRightWheel 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 5 green
 //Health and collision
-SetupPart core 100 -24 -6 -16 48 12 32
-SetupPart backLeftWheel 100 -20 -10 -16 8 8 2
-SetupPart backRightWheel 100 -20 -10 14 8 8 2
-SetupPart frontLeftWheel 100 12 -10 -16 8 8 2
-SetupPart frontRightWheel 100 12 -10 14 8 8 2
+SetupPart core 500 -24 -6 -16 48 12 32
+SetupPart backLeftWheel 500 -20 -10 -16 8 8 2
+SetupPart backRightWheel 500 -20 -10 14 8 8 2
+SetupPart frontLeftWheel 500 12 -10 -16 8 8 2
+SetupPart frontRightWheel 500 12 -10 14 8 8 2
 BulletDetection 5

@@ -10,7 +10,7 @@ ReloadTime 126
 //The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
 Recoil 20
 //Number of bullet entities to create, useful for shotguns, defaults to 1
-NumBullets 5
+NumBullets 10
 //Damage in half hearts
 Damage 7
 //The higher this value, the more the bullets spread

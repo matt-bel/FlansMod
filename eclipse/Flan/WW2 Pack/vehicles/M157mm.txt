@@ -54,7 +54,7 @@ AddRecipeParts rightTrack 1 largeWheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 10 gray
 //Health and collision
-SetupPart core 500 -40 -8 -18 60 24 36
-SetupPart leftTrack 200 4 -8 -22 12 12 4
-SetupPart rightTrack 200 4 -8 18 12 12 4
+SetupPart core 2500 -40 -8 -18 60 24 36
+SetupPart leftTrack 1000 4 -8 -22 12 12 4
+SetupPart rightTrack 1000 4 -8 18 12 12 4
 BulletDetection 7

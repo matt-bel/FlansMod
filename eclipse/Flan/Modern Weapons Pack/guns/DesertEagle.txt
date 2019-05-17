@@ -13,7 +13,7 @@ Recoil 3
 //Number of bullet entities to create, useful for shotguns, defaults to 1
 NumBullets 1
 //Damage in half hearts
-Damage 8
+Damage 10
 //The higher this value, the more the bullets spread
 Accuracy 6
 //Time in ticks between rounds
