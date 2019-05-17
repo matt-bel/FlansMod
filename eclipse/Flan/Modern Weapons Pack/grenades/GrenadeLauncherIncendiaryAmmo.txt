@@ -43,7 +43,7 @@ PrimeDelay 0
 ////Detonation
 FireRadius 3.0
 ExplosionRadius 1.0
-ExplosionBreaksBlocks true
+ExplosionBreaksBlocks false
 //DropItemOnDetonate <itemID.damage>
 //Detonate Sound <sound>
 ////Misc

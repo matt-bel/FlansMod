@@ -545,7 +545,7 @@ public class EntityPlane extends EntityDriveable
 			
 			//Apply gravity
 			g = 0.98F / 20F;
-			motionY -= g;
+			motionY -= g*pitch;
 			
 			//Apply lift
 			int numWingsIntact = 0;

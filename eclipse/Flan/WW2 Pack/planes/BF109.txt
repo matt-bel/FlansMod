@@ -41,7 +41,7 @@ Propeller 0 54 2 0 nose metalPropeller
 Primary Gun
 Secondary Bomb
 //Time between shots in 1/20ths of seconds
-ShootDelayPrimary 7
+ShootDelayPrimary 3
 ShootDelaySecondary 100
 //Whether to alternate or fire all together
 AlternatePrimary False

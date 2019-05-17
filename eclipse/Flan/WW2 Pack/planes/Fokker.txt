@@ -20,8 +20,8 @@ MaxNegativeThrottle 0.0
 TurnLeftSpeed 1.5
 TurnRightSpeed 1.5
 //Pitch modifiers
-LookUpSpeed 0.8
-LookDownSpeed 1.2
+LookUpSpeed 0.4
+LookDownSpeed 0.6
 //Roll modifiers
 RollLeftSpeed 1.5
 RollRightSpeed 1.5
@@ -41,7 +41,7 @@ Propeller 0 29 0 0 nose woodenPropeller
 Primary Gun
 Secondary None
 //Time between shots in 1/20ths of seconds
-ShootDelayPrimary 4
+ShootDelayPrimary 3
 ShootDelaySecondary 0
 //Whether to alternate or fire all together
 AlternatePrimary False

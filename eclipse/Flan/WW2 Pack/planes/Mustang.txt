@@ -20,13 +20,13 @@ MaxNegativeThrottle 0.0
 TurnLeftSpeed 2.5
 TurnRightSpeed 2.5
 //Pitch modifiers
-LookUpSpeed 1.8
-LookDownSpeed 2.6
+LookUpSpeed 1.0
+LookDownSpeed 1.2
 //Roll modifiers
 RollLeftSpeed 2
 RollRightSpeed 2
 //Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
-Drag 2.0
+Drag 1.0
 //Wheels
 NumWheels 3
 WheelPosition 0 3 -17 -7
@@ -41,7 +41,7 @@ Propeller 0 54 2 0 nose metalPropeller
 Primary Gun
 Secondary Bomb
 //Time between shots in 1/20ths of seconds
-ShootDelayPrimary 6
+ShootDelayPrimary 3
 ShootDelaySecondary 80
 //Whether to alternate or fire all together
 AlternatePrimary False
