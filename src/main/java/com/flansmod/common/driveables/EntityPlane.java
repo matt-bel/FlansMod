@@ -545,7 +545,7 @@ public class EntityPlane extends EntityDriveable
 			
 			//Apply gravity
 			g = 0.98F / 20F;
-			motionY -= g*pitch;
+			motionY -= g;
 			
 			//Apply lift
 			int numWingsIntact = 0;
@@ -579,6 +579,7 @@ public class EntityPlane extends EntityDriveable
 			break;
 		}
 		
+		
 		double motion = Math.sqrt(motionX * motionX + motionY * motionY + motionZ * motionZ);
 		if(motion > 10)
 		{
@@ -586,7 +587,7 @@ public class EntityPlane extends EntityDriveable
 			motionY *= 10 / motion;
 			motionZ *= 10 / motion;
 		}
-				
+
 		for(EntityWheel wheel : wheels)
 		{
 			if(wheel != null && worldObj != null)
