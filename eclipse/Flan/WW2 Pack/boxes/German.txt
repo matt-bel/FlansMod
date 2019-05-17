@@ -14,15 +14,19 @@ III
 //And with parts from this mod, they are the shortName of the item
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
-NumGuns 10
+NumGuns 12
 AddGun kar98k 4 ingotIron 6 log
 AddAmmo kar98kAmmo 1 ingotIron 1 gunpowder
 AddGun kar98kSniper 6 ingotIron 6 log 4 glass
 AddAmmo kar98kAmmo 1 ingotIron 1 gunpowder
-AddGun mp40 9 ingotIron
+AddGun mp40 8 ingotIron
 AddAmmo mp40Ammo 1 ingotIron 1 gunpowder
-AddGun mp44 12 ingotIron 4 log
+AddGun mp44 10 ingotIron 4 log
 AddAmmo mp44Ammo 2 ingotIron 1 gunpowder
+AddGun fg42 12 ingotIron 6 log
+AddAmmo Fg42Ammo 1 ingotIron 1 gunpowder
+AddGun G43 9 ingotIron 6 log
+AddAmmo G43Ammo 1 ingotIron 1 gunpowder
 AddGun luger 4 ingotIron 1 log
 AddAmmo lugerAmmo 1 ingotIron 1 gunpowder
 AddGun panzerschreck 12 ingotIron 4 log
