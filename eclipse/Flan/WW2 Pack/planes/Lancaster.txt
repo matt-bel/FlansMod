@@ -14,14 +14,14 @@ CameraDistance 20.0
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
 //Throttle
-MaxThrottle 6.0
+MaxThrottle 3.0
 MaxNegativeThrottle 0.0
 //Yaw modifiers
 TurnLeftSpeed 1
 TurnRightSpeed 1
 //Pitch modifiers
-LookUpSpeed 0.5
-LookDownSpeed 0.7
+LookUpSpeed 1.5
+LookDownSpeed 1.7
 //Roll modifiers
 RollLeftSpeed 1
 RollRightSpeed 1
