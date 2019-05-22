@@ -14,7 +14,8 @@ MaxStackSize 2
 //The damage multiplier caused by the bullet on hitting an entity
 Damage 100
 //Size of explosion caused
-Explosion 5
+Explosion 7
+ExplosionBreaksBlocks true
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
 ExplodeOnImpact True
 Fuse 200

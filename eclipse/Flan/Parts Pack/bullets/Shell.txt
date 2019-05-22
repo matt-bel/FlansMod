@@ -1,4 +1,4 @@
-Name Tank Shell
+/r Name Tank Shell
 ShortName shell
 Model Bullet
 //Colour of icon and model
@@ -13,10 +13,11 @@ RoundsPerItem 1
 MaxStackSize 16
 //The damage multiplier caused by the bullet on hitting an entity
 Damage 50
-DamageVsLiving 1
-DamageVsVehicles 250
+DamageVsLiving 50
+DamageVsVehicles 1000
 //Size of explosion caused
 Explosion 3
+ExplosionBreaksBlocks true
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
 ExplodeOnImpact True
 Fuse 200
