@@ -3,7 +3,7 @@ ShortName juggernautHelmet
 Icon JuggernautHelmet
 Colour 255 255 255
 Type Hat
-Defence 0.15
+Defence 0.10
 ArmourTexture Juggernaut
 MoveSpeedModifier 0.85
 KnockbackModifier 0.25

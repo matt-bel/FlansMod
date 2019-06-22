@@ -43,7 +43,7 @@ AllowAllAmmo False
 AddAmmo shell
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
-ShellDelay 70
+ShellDelay 50
 //Sounds
 StartSound TankIdle
 StartSoundLength 20

@@ -43,7 +43,7 @@ Propeller 0 54 0 0 core metalPropeller
 Primary Gun
 Secondary Missile
 //Time between shots in 1/20ths of seconds
-ShootDelayPrimary 2
+ShootDelayPrimary 1
 ShootDelaySecondary 20
 //Whether to alternate or fire all together
 AlternatePrimary False
@@ -90,14 +90,14 @@ AddRecipeParts leftWingWheel 1 wheel
 AddDye 5 white
 AddDye 1 gray
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart nose 100 46 10 -9 35 18 18
-SetupPart core 300 -93 9 -23 139 31 46
-SetupPart tail 100 -149 16 -16 56 14 32
-SetupPart leftWing 100 -78 25 -101 40 3 83
-SetupPart rightWing 100 -78 25 18 40 3 83
-SetupPart coreWheel 100 7 -10 -3 10 20 6
-SetupPart leftWingWheel 100 -83 -10 -18 10 26 6
-SetupPart rightWingWheel 100 -83 -10 12 10 26 6
+SetupPart nose 750 46 10 -9 35 18 18
+SetupPart core 1500 -93 9 -23 139 31 46
+SetupPart tail 1200 -149 16 -16 56 14 32
+SetupPart leftWing 1000 -78 25 -101 40 3 83
+SetupPart rightWing 1000 -78 25 18 40 3 83
+SetupPart coreWheel 300 7 -10 -3 10 20 6
+SetupPart leftWingWheel 300 -83 -10 -18 10 26 6
+SetupPart rightWingWheel 300 -83 -10 12 10 26 6
 BulletDetection 10
 HasWing True
 

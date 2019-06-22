@@ -15,7 +15,7 @@ ModelScale 1.0
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
 //Throttle
-MaxThrottle 8.0
+MaxThrottle 10.0
 MaxNegativeThrottle 0.0
 //Yaw modifiers
 TurnLeftSpeed 4
@@ -43,7 +43,7 @@ Propeller 0 54 0 0 core metalPropeller
 Primary Gun
 Secondary Missile
 //Time between shots in 1/20ths of seconds
-ShootDelayPrimary 2
+ShootDelayPrimary 1
 ShootDelaySecondary 20
 //Whether to alternate or fire all together
 AlternatePrimary False
@@ -52,7 +52,7 @@ AlternateSecondary False
 ModePrimary FullAuto
 ModeSecondary FullAuto
 //Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
-ShootPointPrimary 60 3 0 nose minigun
+ShootPointPrimary 60 3 0 nose ADEN
 ShootPointSecondary -60 16 -58 leftWing
 ShootPointSecondary -60 16 58 rightWing
 // ------------------------------------------------------ Inventory ------------------------------------------------------
@@ -89,12 +89,12 @@ AddRecipeParts leftWingWheel 1 wheel
 AddDye 5 silver
 AddDye 5 gray
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart nose 100 46 10 -9 64 24 18
-SetupPart core 300 -93 8 -32 139 16 64
-SetupPart tailWheel 100 -72 -12 -18 12 24 36
-SetupPart leftWing 100 -72 16 -92 60 3 60
-SetupPart rightWing 100 -72 16 32 60 3 60
-SetupPart coreWheel 100 50 -10 -3 10 20 6
+SetupPart nose 750 46 10 -9 64 24 18
+SetupPart core 1500 -93 8 -32 139 16 64
+SetupPart tailWheel 300 -72 -12 -18 12 24 36
+SetupPart leftWing 1200 -72 16 -92 60 3 60
+SetupPart rightWing 1200 -72 16 32 60 3 60
+SetupPart coreWheel 300 50 -10 -3 10 20 6
 BulletDetection 10
 //RightWing
 CollisionPoint -43 28 -18 leftWing

@@ -3,7 +3,7 @@ ShortName juggernautBodyBrown
 Icon JuggernautBodyBrown
 Colour 255 255 255
 Type Chest
-Defence 0.4
+Defence 0.35
 ArmourTexture BrownJuggernaut
 MoveSpeedModifier 0.65
 KnockbackModifier 0.25

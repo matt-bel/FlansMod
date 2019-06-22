@@ -49,7 +49,7 @@ MissileSlots 1
 AllowAllAmmo False
 AddAmmo boforsAmmo
 //Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
-FuelTankSize 0
+FuelTankSize 2000
 // ------------------------------------------------------ Passengers ------------------------------------------------------
 Driver 0 0 0 -360 360 0 89
 RotatedDriverOffset -8 2 -8

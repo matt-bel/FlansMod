@@ -6,15 +6,15 @@ Colour 255 255 255
 ItemID 23271
 Icon Bomb
 //How affected by gravity the bullet is
-FallSpeed 1
+FallSpeed 1.5
 //The number of rounds each item has. Limited to 32000.
 RoundsPerItem 1
 //The maximum stack size of a stack of these
-MaxStackSize 5
+MaxStackSize 10
 //The damage multiplier caused by the bullet on hitting an entity
 Damage 50
 //Size of explosion caused
-Explosion 5
+Explosion 3
 ExplosionBreaksBlocks true
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
 ExplodeOnImpact True

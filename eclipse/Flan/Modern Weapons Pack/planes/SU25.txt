@@ -93,11 +93,11 @@ AddRecipeParts leftWingWheel 1 wheel
 AddDye 5 white
 AddDye 1 gray
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart nose 400 115 15 -11 40 23 22
-SetupPart core 600 -54 15 -12 168 45 24
-SetupPart tail 300 -152 31 -12 97 76 24
-SetupPart rightWing 200 -41 39 12 67 9 149
-SetupPart leftWing 200 -41 39 -161 67 9 149
+SetupPart nose 750 115 15 -11 40 23 22
+SetupPart core 1500 -54 15 -12 168 45 24
+SetupPart tail 750 -152 31 -12 97 76 24
+SetupPart rightWing 1200 -41 39 12 67 9 149
+SetupPart leftWing 1200 -41 39 -161 67 9 149
 BulletDetection 10
 
 

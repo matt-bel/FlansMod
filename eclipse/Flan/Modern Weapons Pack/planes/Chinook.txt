@@ -113,8 +113,8 @@ AddRecipeParts tail 1 metalTail
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 16 green
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart core 800 -96 -9 -32 192 67 64
-SetupPart nose 300 96 -8 -32 64 64 64
-SetupPart tail 200 -128 16 -10 32 72 20
-SetupPart coreWheel 200 69 -27 -24 12 18 48
+SetupPart core 1500 -96 -9 -32 192 67 64
+SetupPart nose 750 96 -8 -32 64 64 64
+SetupPart tail 1200 -128 16 -10 32 72 20
+SetupPart coreWheel 300 69 -27 -24 12 18 48
 BulletDetection 24

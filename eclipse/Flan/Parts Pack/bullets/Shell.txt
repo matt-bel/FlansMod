@@ -16,7 +16,7 @@ Damage 50
 DamageVsLiving 50
 DamageVsVehicles 1000
 //Size of explosion caused
-Explosion 3
+Explosion 2
 ExplosionBreaksBlocks true
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
 ExplodeOnImpact True

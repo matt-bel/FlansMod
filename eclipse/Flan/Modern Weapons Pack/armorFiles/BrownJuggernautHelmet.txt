@@ -3,7 +3,7 @@ ShortName juggernautHelmetBrown
 Icon JuggernautHelmetBrown
 Colour 255 255 255
 Type Hat
-Defence 0.15
+Defence 0.10
 ArmourTexture BrownJuggernaut
 MoveSpeedModifier 0.85
 KnockbackModifier 0.25
