@@ -37,7 +37,7 @@ public class KeyInputHandler
 	public static KeyBinding controlSwitchKey = new KeyBinding("Control Switch key", Keyboard.KEY_C, "Flan's Mod");
 	public static KeyBinding reloadKey = new KeyBinding("Reload key", Keyboard.KEY_R, "Flan's Mod");
 	public static KeyBinding teamsMenuKey = new KeyBinding("Teams Menu Key", Keyboard.KEY_G, "Flan's Mod");
-	public static KeyBinding teamsScoresKey = new KeyBinding("Teams Scores Key", Keyboard.KEY_H, "Flan's Mod");
+	public static KeyBinding teamsScoresKey = new KeyBinding("Teams Scores Key", Keyboard.KEY_O, "Flan's Mod");
 	public static KeyBinding leftRollKey = new KeyBinding("Roll Left Key", Keyboard.KEY_Z, "Flan's Mod");
 	public static KeyBinding rightRollKey = new KeyBinding("Roll Right Key", Keyboard.KEY_X, "Flan's Mod");
     public static KeyBinding gearKey = new KeyBinding("Gear Up / Down Key", Keyboard.KEY_L, "Flan's Mod");
@@ -46,6 +46,7 @@ public class KeyInputHandler
     //public static KeyBinding trimKey = new KeyBinding("Trim Key", Keyboard.KEY_O, "Flan's Mod");
     public static KeyBinding debugKey = new KeyBinding("Debug Key", Keyboard.KEY_F10, "Flan's Mod");
     public static KeyBinding reloadModelsKey = new KeyBinding("Reload Models Key", Keyboard.KEY_F9, "Flan's Mod");
+    public static KeyBinding handBreakKey = new KeyBinding("Hand Break Key", Keyboard.KEY_H, "Flan's Mod")
     //public static KeyBinding zoomKey = new KeyBinding("Zoom Key", 2 - 100, "Flan's Mod");
 
 	Minecraft mc;
@@ -74,6 +75,7 @@ public class KeyInputHandler
 		//ClientRegistry.registerKeyBinding(trimKey);
 		ClientRegistry.registerKeyBinding(debugKey);
 		ClientRegistry.registerKeyBinding(reloadModelsKey);
+		ClientRegistry.registerKeyBinding(handBreakKey);
 		//ClientRegistry.registerKeyBinding(zoomKey);
 		
 		mc = Minecraft.getMinecraft();
@@ -149,6 +151,8 @@ public class KeyInputHandler
 				riding.pressKey(14, player);
 			if(modeKey.isPressed())
 				riding.pressKey(15, player);
+			if(handBreakKey.isPressed())
+				riding.pressKey(17, player);
 			//if(trimKey.isPressed())
 			//	riding.pressKey(16, player);
 			

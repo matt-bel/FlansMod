@@ -242,7 +242,8 @@ public class EntityVehicle extends EntityDriveable implements IExplodeable
             }
             case 17 : //Park
             {
-                break;
+            	if(throttle > -0.1F && throttle < 0.1F)
+					throttle = 0F
             }
 		}
 		return false;

@@ -35,4 +35,4 @@ RecipeOutput 1
 Recipe I ingotIron T tnt
 III
 TIT
-III 
+III
