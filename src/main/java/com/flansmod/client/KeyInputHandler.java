@@ -46,7 +46,7 @@ public class KeyInputHandler
     //public static KeyBinding trimKey = new KeyBinding("Trim Key", Keyboard.KEY_O, "Flan's Mod");
     public static KeyBinding debugKey = new KeyBinding("Debug Key", Keyboard.KEY_F10, "Flan's Mod");
     public static KeyBinding reloadModelsKey = new KeyBinding("Reload Models Key", Keyboard.KEY_F9, "Flan's Mod");
-    public static KeyBinding handBreakKey = new KeyBinding("Hand Break Key", Keyboard.KEY_H, "Flan's Mod")
+    public static KeyBinding handBreakKey = new KeyBinding("Hand Break Key", Keyboard.KEY_H, "Flan's Mod");
     //public static KeyBinding zoomKey = new KeyBinding("Zoom Key", 2 - 100, "Flan's Mod");
 
 	Minecraft mc;
@@ -152,9 +152,9 @@ public class KeyInputHandler
 			if(modeKey.isPressed())
 				riding.pressKey(15, player);
 			if(handBreakKey.isPressed())
-				riding.pressKey(17, player);
+				riding.pressKey(16, player);
 			//if(trimKey.isPressed())
-			//	riding.pressKey(16, player);
+			//	riding.pressKey(17, player);
 			
 			/*
 			for(KeyBinding key : mc.gameSettings.keyBindings )

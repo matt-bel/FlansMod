@@ -235,15 +235,16 @@ public class EntityVehicle extends EntityDriveable implements IExplodeable
 			{
 				return true;
 			}
-            case 16 : // Trim Button
+            case 16 : //Park
+            {
+            	if(throttle < 0.25F && throttle > -0.25F)
+            		throttle = 0F;
+            	return true;
+            }
+            case 17 : // Trim Button
             {
 				//applyTorque(new Vector3f(axes.getRoll() / 10, 0F, 0F));
 				return true;
-            }
-            case 17 : //Park
-            {
-            	if(throttle > -0.1F && throttle < 0.1F)
-					throttle = 0F
             }
 		}
 		return false;
