@@ -14,7 +14,7 @@ III
 //And with parts from this mod, they are the shortName of the item
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
-NumGuns 8
+NumGuns 11
 AddGun leeEnfield 8 ingotIron 5 log
 AddAmmo leeEnfieldAmmo 1 ingotIron 1 gunpowder
 AddGun leeEnfieldSniper 8 ingotIron 5 log 4 glass
@@ -31,3 +31,9 @@ AddAltAmmo brenAmmo100 4 ingotIron 4 gunpowder
 AddGun bofors 1 aaBarrel 1 leather 1 blockIron 2 wheel
 AddAmmo boforsAmmo 1 ingotIron 2 gunpowder
 AddGun millsBomb 2 ingotIron 2 gunpowder
+AddGun 2Pdr 9 ingotIron
+AddAmmo British2pdrAPShell 3 ingotIron 3 gunpowder
+AddGun vickersk 20 ingotIron 4 log
+AddAmmo vickerskAmmo100 5 ingotIron 5 gunpowder
+AddGun vickerskGO 2 vickersk 2 ingotIron
+AddAmmo vickerskAmmo100 5 ingotIron 5 gunpowder

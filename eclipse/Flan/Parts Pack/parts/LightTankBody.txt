@@ -1,14 +1,13 @@
-Name Tank Turret
-ShortName tankTurret
-Icon TankTurret
+Name Light Tank Body
+ShortName lightTankBody
+Icon LightTankBody
 //Colour in Red, Green, Blue, each going up to 255.
 Colour 255 255 255
-ItemID 23458
 //Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
-Category Turret
+Category Chassis
 StackSize 4
 RecipeOutput 1
-Recipe I ingotIron B tankBarrel
+Recipe I ingotIron D trapdoor
    
-IIB
-II 
+IDI
+III

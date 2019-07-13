@@ -41,6 +41,7 @@ Passenger 1 10 28 0 turret -360 360 -15 60 type99 Type-99
 GunOrigin 1 10 24 0
 RotatedPassengerOffset 1 0 0 0
 BarrelPosition 0 34 0
+AddAmmo ArtilleryHEShell
 //Secondary gun
 AddGun 8 34 8 turret type99
 //Delays are in ticks or 1/20ths of seconds
@@ -57,8 +58,8 @@ ShootSoundSecondary BrenShoot
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
 //rightWing, nose, turret, coreWheel, core
-AddRecipeParts turret 1 tankTurret 1 vehicleSeat
-AddRecipeParts core 1 tankBody 1 vehicleSeat
+AddRecipeParts turret 1 lightTankTurret 1 vehicleSeat
+AddRecipeParts core 1 smallChassis 1 vehicleSeat
 AddRecipeParts leftTrack 1 catTrack
 AddRecipeParts rightTrack 1 catTrack
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"

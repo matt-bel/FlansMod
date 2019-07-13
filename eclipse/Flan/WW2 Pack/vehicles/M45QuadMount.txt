@@ -67,7 +67,7 @@ TurretRotationSpeed 0.08
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
 //rightWing, nose, turret, coreWheel, core
-AddRecipeParts core 1 blockIron 1 vehicleSeat 4 50Cal
+AddRecipeParts core 1 blockIron 1 vehicleSeat 4 aaBarrel
 AddRecipeParts leftTrack 1 wheel
 AddRecipeParts rightTrack 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"

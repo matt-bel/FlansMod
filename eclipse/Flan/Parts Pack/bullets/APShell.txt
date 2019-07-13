@@ -1,23 +1,21 @@
-/r Name Tank Shell
+Name AP Tank Shell
 ShortName shell
 Model Bullet
 //Colour of icon and model
 Colour 255 255 255
-ItemID 23462
-Icon TankShell
+Icon TankShellAP
 //How affected by gravity the bullet is
-FallSpeed 1
+FallSpeed 0.1
 //The number of rounds each item has. Limited to 32000.
 RoundsPerItem 1
 //The maximum stack size of a stack of these
 MaxStackSize 16
 //The damage multiplier caused by the bullet on hitting an entity
 Damage 50
-DamageVsLiving 50
-DamageVsVehicles 1000
+DamageVsLiving 20
+DamageVsVehicles 2500
 //Size of explosion caused
-Explosion 2
-ExplosionBreaksBlocks true
+Explosion 1
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
 ExplodeOnImpact True
 Fuse 200
@@ -27,7 +25,7 @@ Fire 0
 BreaksGlass True
 //Size of box to check for entities to hit / detonate
 HitBoxSize 1.0
-HitSound bomb
+HitSound
 //Whether or not the bullet can travel through an entity having hit it
 Penetrates False
 SmokeTrail True

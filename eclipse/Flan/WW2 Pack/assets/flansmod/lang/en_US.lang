@@ -1,4 +1,5 @@
 tile.ww2Armour.name=WW2 Armor Box
+tile.ww2Armour.name=WW2 Armor Box
 tile.american.name=American Weapons Box
 tile.british.name=British Weapons Box
 tile.german.name=German Weapons Box
@@ -168,6 +169,11 @@ item.Greyhound.name=M8 Greyhound
 item.M3Halftrack.name=M3 Halftrack
 item.M10.name=M10
 item.M45Quad.name=M45 .50Cal Quad Mount
+item.2Pdr.name=2 Pdr
+item.vickersk.name=Vickers K
+item.vickerskGO.name=Vickers K-GO
+item.vickerskAmmo100.name=Vickers K Ammo - 100 Bullet Drum
+item.British2pdrAPShell.name=British 2pdr AP Shell
 item.SdkFz222.name=SdKfz.222
 item.SdkFz251.name=SdKfz.251
 item.SdkFz2.name=SdKfz.2
