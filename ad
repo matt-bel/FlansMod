@@ -1,0 +1,49 @@
+[1mdiff --git a/src/main/java/com/flansmod/client/handlers/KeyInputHandler.java b/src/main/java/com/flansmod/client/handlers/KeyInputHandler.java[m
+[1mindex c9e2b5f0..eab75ff2 100644[m
+[1m--- a/src/main/java/com/flansmod/client/handlers/KeyInputHandler.java[m
+[1m+++ b/src/main/java/com/flansmod/client/handlers/KeyInputHandler.java[m
+[36m@@ -109,6 +109,10 @@[m [mpublic class KeyInputHandler[m
+ 			FlansKeyConflictContext.VEHICLE,[m
+ 			Minecraft.getMinecraft().gameSettings.keyBindUseItem.getKeyCode(),[m
+ 			"key.flansmod.category");[m
+[32m+[m	[32mpublic static KeyBinding handBreakKey  = new KeyBinding("Hand Break",[m
+[32m+[m			[32mFlansKeyConflictContext.VEHICLE,[m
+[32m+[m			[32mKeyboard.KEY_O,[m
+[32m+[m			[32m"key.flansmod.category");[m
+ 	[m
+ 	private Minecraft mc;[m
+ 	[m
+[36m@@ -132,6 +136,7 @@[m [mpublic class KeyInputHandler[m
+ 		ClientRegistry.registerKeyBinding(reloadModelsKey);[m
+ 		ClientRegistry.registerKeyBinding(primaryVehicleInteract);[m
+ 		ClientRegistry.registerKeyBinding(secondaryVehicleInteract);[m
+[32m+[m		[32mClientRegistry.registerKeyBinding(handBreakKey);[m
+ 		[m
+ 		mc = Minecraft.getMinecraft();[m
+ 	}[m
+[36m@@ -270,6 +275,8 @@[m [mpublic class KeyInputHandler[m
+ 				controllable.pressKey(15, player, true);[m
+ 			if(toggleCameraPerspective.isKeyDown())[m
+ 				controllable.pressKey(18, player, true);[m
+[32m+[m			[32mif(handBreakKey.isPressed())[m
+[32m+[m				[32mcontrollable.pressKey(20, player, true);[m
+ 		}[m
+ 	}[m
+ }[m
+[1mdiff --git a/src/main/java/com/flansmod/common/driveables/EntityVehicle.java b/src/main/java/com/flansmod/common/driveables/EntityVehicle.java[m
+[1mindex f52b9346..b23cd748 100644[m
+[1m--- a/src/main/java/com/flansmod/common/driveables/EntityVehicle.java[m
+[1m+++ b/src/main/java/com/flansmod/common/driveables/EntityVehicle.java[m
+[36m@@ -260,6 +260,12 @@[m [mpublic class EntityVehicle extends EntityDriveable implements IExplodeable[m
+ 				}[m
+ 				return true;[m
+ 			}[m
+[32m+[m			[32mcase 20: //Break and Park[m
+[32m+[m			[32m{[m
+[32m+[m				[32mif(throttle > -0.5F && throttle < 0.5F)[m
+[32m+[m					[32mthrottle = 0F;[m
+[32m+[m				[32mreturn true;[m
+[32m+[m			[32m}[m
+ 			default:[m
+ 			{[m
+ 				return super.pressKey(key, player, isOnEvent);[m

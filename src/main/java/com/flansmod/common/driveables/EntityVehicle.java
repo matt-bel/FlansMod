@@ -260,6 +260,12 @@ public class EntityVehicle extends EntityDriveable implements IExplodeable
 				}
 				return true;
 			}
+			case 20: //Break and Park
+			{
+				if(throttle > -0.5F && throttle < 0.5F)
+					throttle = 0F;
+				return true;
+			}
 			default:
 			{
 				return super.pressKey(key, player, isOnEvent);

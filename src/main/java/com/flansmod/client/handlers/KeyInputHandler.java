@@ -109,6 +109,10 @@ public class KeyInputHandler
 			FlansKeyConflictContext.VEHICLE,
 			Minecraft.getMinecraft().gameSettings.keyBindUseItem.getKeyCode(),
 			"key.flansmod.category");
+	public static KeyBinding handBreakKey  = new KeyBinding("Hand Break",
+			FlansKeyConflictContext.VEHICLE,
+			Keyboard.KEY_O,
+			"key.flansmod.category");
 	
 	private Minecraft mc;
 	
@@ -132,6 +136,7 @@ public class KeyInputHandler
 		ClientRegistry.registerKeyBinding(reloadModelsKey);
 		ClientRegistry.registerKeyBinding(primaryVehicleInteract);
 		ClientRegistry.registerKeyBinding(secondaryVehicleInteract);
+		ClientRegistry.registerKeyBinding(handBreakKey);
 		
 		mc = Minecraft.getMinecraft();
 	}
@@ -270,6 +275,8 @@ public class KeyInputHandler
 				controllable.pressKey(15, player, true);
 			if(toggleCameraPerspective.isKeyDown())
 				controllable.pressKey(18, player, true);
+			if(handBreakKey.isPressed())
+				controllable.pressKey(20, player, true);
 		}
 	}
 }
