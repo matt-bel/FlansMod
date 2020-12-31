@@ -37,7 +37,7 @@ AllowAllAttachments false
 //List here all the attachments allowed on this gun by shortName and separated by spaces
 AllowAttachments flanMWRedDot flanMWACOG flanMW4xScope flanMWForegrip flanMWFlashlight
 AllowBarrelAttachments false
-AllowScopeAttachments true
+AllowScopeAttachments false
 AllowStockAttachments false
-AllowGripAttachments true
+AllowGripAttachments false
 NumGenericAttachmentSlots 1
