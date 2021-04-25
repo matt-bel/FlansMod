@@ -32,9 +32,9 @@ FOVZoomLevel 1.2
 Deployable False
 DeployedModel None
 //3D Model Settings
-Model mw.DesertEagle
+Model mw.GoldDesertEagle
 ModelScale 0.8
-Texture DesertEagle_Gold
+Texture DesertEagleGold
 //Attachment Settings
 AllowAllAttachments false
 //List here all the attachments allowed on this gun by shortName and separated by spaces
