@@ -21,7 +21,7 @@ public class ModelM4Carbine extends ModelGun //Same as Filename
 	int textureX = 512;
 	int textureY = 32;
 
-	public M4Carbine() //Same as Filename
+	public ModelM4Carbine() //Same as Filename
 	{
 		gunModel = new ModelRendererTurbo[33];
 		gunModel[0] = new ModelRendererTurbo(this, 1, 1, textureX, textureY); // Import ImportBox0
