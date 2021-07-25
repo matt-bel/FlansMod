@@ -11,13 +11,13 @@ ItemID 23837
 //Reload time in ticks, 1/20ths of a second
 ReloadTime 60
 //The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
-Recoil 6
+Recoil 10
 //Number of bullet entities to create, useful for shotguns, defaults to 1
 NumBullets 1
 //Damage in half hearts
-Damage 10
+Damage 14
 //The higher this value, the more the bullets spread
-Accuracy 4
+Accuracy 7
 //Time in ticks between rounds
 ShootDelay 2
 ShootSound RPDShoot

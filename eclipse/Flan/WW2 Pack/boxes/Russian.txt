@@ -15,17 +15,17 @@ III
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
 NumGuns 8
-AddGun nagant 5 ingotIron 5 log
+AddGun nagant 10 ingotIron 12 log
 AddAmmo nagantAmmo 1 ingotIron 1 gunpowder
-AddGun nagantSniper 5 ingotIron 5 log 4 glass
+AddGun nagantSniper 10 ingotIron 12 log 4 glass
 AddAmmo nagantAmmo 1 ingotIron 1 gunpowder
-AddGun ppsh 10 ingotIron 2 log
-AddAmmo ppshAmmo 1 ingotIron 3 gunpowder
-AddGun tt33 4 ingotIron 2 log
+AddGun ppsh 10 ingotIron 15 log
+AddAmmo ppshAmmo 1 ingotIron 1 gunpowder
+AddGun tt33 4 ingotIron 3 log
 AddAmmo tt33Ammo 1 ingotIron 1 gunpowder
 AddGun bazooka 10 ingotIron 8 log
 AddAmmo bazookaAmmo 2 ingotIron 2 gunpowder
-AddGun dp28 15 ingotIron 5 log
+AddGun dp28 18 ingotIron 10 log
 AddAmmo dp28Ammo 2 ingotIron 3 gunpowder
 AddGun bofors 1 aaBarrel 1 leather 1 blockIron 2 wheel
 AddAmmo boforsAmmo 1 ingotIron 2 gunpowder

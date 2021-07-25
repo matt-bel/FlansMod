@@ -15,25 +15,25 @@ III
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
 NumGuns 11
-AddGun leeEnfield 8 ingotIron 5 log
+AddGun leeEnfield 15 ingotIron 10 log
 AddAmmo leeEnfieldAmmo 1 ingotIron 1 gunpowder
-AddGun leeEnfieldSniper 8 ingotIron 5 log 4 glass
-AddAmmo leeEnfieldAmmo 5 ingotIron 2 gunpowder
-AddGun sten 8 ingotIron
-AddAmmo stenAmmo 1 ingotIron 2 gunpowder
-AddGun webley 4 ingotIron 2 log
+AddGun leeEnfieldSniper 14 ingotIron 10 log 4 glass
+AddAmmo leeEnfieldAmmo 1 ingotIron 1 gunpowder
+AddGun sten 14 ingotIron
+AddAmmo stenAmmo 1 ingotIron 1 gunpowder
+AddGun webley 3 ingotIron 3 log
 AddAmmo webleyAmmo 1 ingotIron 1 gunpowder
 AddGun PIAT 14 ingotIron
 AddAmmo PIATAmmo 2 ingotIron 3 gunpowder
-AddGun bren 10 ingotIron 5 log
-AddAmmo brenAmmo30 2 ingotIron 1 gunpowder
-AddAltAmmo brenAmmo100 4 ingotIron 4 gunpowder
+AddGun bren 15 ingotIron 10 log
+AddAmmo brenAmmo30 1 ingotIron 1 gunpowder
+AddAltAmmo brenAmmo100 2 ingotIron 3 gunpowder
 AddGun bofors 1 aaBarrel 1 leather 1 blockIron 2 wheel
 AddAmmo boforsAmmo 1 ingotIron 2 gunpowder
 AddGun millsBomb 2 ingotIron 2 gunpowder
 AddGun 2Pdr 9 ingotIron
 AddAmmo British2pdrAPShell 3 ingotIron 3 gunpowder
-AddGun vickersk 20 ingotIron 4 log
-AddAmmo vickerskAmmo100 5 ingotIron 5 gunpowder
-AddGun vickerskGO 2 vickersk 2 ingotIron
-AddAmmo vickerskAmmo100 5 ingotIron 5 gunpowder
+AddGun vickersk 20 ingotIron 5 log
+AddAmmo vickerskAmmo100 2 ingotIron 3 gunpowder
+AddGun vickerskGO 2 vickersk 4 ingotIron
+AddAmmo vickerskAmmo100 2 ingotIron 3 gunpowder
