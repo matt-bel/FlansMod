@@ -15,97 +15,97 @@ III
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
 NumGuns 54
-AddGun m40a3 12 ingotIron 8 fiberglass 4 glass 2 dyePowder.2
-AddAmmo m40a3Ammo 3 ingotIron 2 gunpowder
-AddGun m21 10 ingotIron 10 fiberglass 5 glass
-AddAmmo m21Ammo 2 ingotIron 3 fiberglass 3 gunpowder
-AddGun dragunov 12 ingotIron 10 log 4 glass
-AddAmmo dragunovAmmo 4 ingotIron 3 gunpowder
-AddGun r700 10 ingotIron 8 log 4 glass
-AddAmmo r700Ammo 2 ingotIron 1 gunpowder
+AddGun m40a3 20 ingotIron 5 fiberglass 5 log 6 glass
+AddAmmo m40a3Ammo 1 fiberglass 1 ingotIron 1 gunpowder
+AddGun m21 12 ingotIron 12 fiberglass 5 glass
+AddAmmo m21Ammo 3 ingotIron 3 gunpowder
+AddGun dragunov 15 ingotIron 10 log 5 glass
+AddAmmo dragunovAmmo 3 ingotIron 3 gunpowder
+AddGun r700 24 ingotIron 5 log 6 glass
+AddAmmo r700Ammo 1 fiberglass 1 ingotIron 1 gunpowder
 AddGun barrett 20 ingotIron 5 glass 10 fiberglass
-AddAmmo barrettAmmo 4 ingotIron 3 gunpowder
+AddAmmo barrettAmmo 4 ingotIron 5 gunpowder
 AddAltAmmo barrettExplosiveAmmo 4 ingotIron 20 gunpowder
-AddGun l96 6 ingotIron 12 fiberglass 5 glass
+AddGun l96 10 ingotIron 15 fiberglass 5 glass
 AddAmmo l96Ammo 3 fiberglass 3 gunpowder
-AddGun sg550 16 ingotIron 2 fiberglass
-AddAmmo sg550Ammo 3 ingotIron 3 gunpowder
-AddGun m14 10 ingotIron 10 fiberglass
-AddAmmo m14Ammo 1 ingotIron 2 gunpowder
-AddGun m16a4 15 ingotIron 5 fiberglass
-AddAmmo m16a4Ammo 3 ingotIron 4 gunpowder
+AddGun sg550 20 ingotIron 5 fiberglass
+AddAmmo sg550Ammo 2 ingotIron 2 gunpowder
+AddGun m14 15 ingotIron 5 fiberglass 10 log
+AddAmmo m14Ammo 2 ingotIron 2 gunpowder
+AddGun m16a4 15 ingotIron 13 fiberglass
+AddAmmo m16a4Ammo 2 ingotIron 3 gunpowder
 AddAltAmmo betaCMag 10 fiberglass 12 gunpowder
-AddGun fnscar 6 ingotIron 10 fiberglass
-AddAmmo fnscarAmmo 2 fiberglass 3 gunpowder
+AddGun fnscar 15 ingotIron 13 fiberglass
+AddAmmo fnscarAmmo 2 fiberglass 2 gunpowder
 AddAltAmmo betaCMag 10 fiberglass 12 gunpowder
-AddGun acr 6 ingotIron 12 fiberglass
+AddGun acr 12 ingotIron 15 fiberglass
 AddAmmo acrAmmo 2 fiberglass 3 gunpowder
 AddAltAmmo betaCMag 10 fiberglass 12 gunpowder
-AddGun ak47 10 ingotIron 10 log
-AddAmmo ak47Ammo 3 ingotIron 2 gunpowder
-AddGun g3 22 ingotIron
+AddGun ak47 15 ingotIron 3 fiberglass 15 log
+AddAmmo ak47Ammo 2 ingotIron 3 gunpowder
+AddGun g3 15 ingotIron 5 fiberglass 10 log
 AddAmmo g3Ammo 2 ingotIron 2 gunpowder
-AddGun g36 5 ingotIron 15 fiberglass
-AddAmmo g36Ammo 2 ingotIron 1 fiberglass 3 gunpowder
-AddGun aug 8 ingotIron 8 fiberglass
-AddAmmo augAmmo 2 fiberglass 3 gunpowder
+AddGun g36 15 ingotIron 13 fiberglass
+AddAmmo g36Ammo 2 ingotIron 3 gunpowder
+AddGun aug 15 ingotIron 13 fiberglass
+AddAmmo augAmmo 3 fiberglass 3 gunpowder
 AddAltAmmo betaCMag 10 fiberglass 12 gunpowder
-AddGun mtar 6 ingotIron 10 fiberglass
-AddAmmo mtarAmmo 3 fiberglass 3 gunpowder
+AddGun mtar 15 ingotIron 13 fiberglass
+AddAmmo mtarAmmo 2 fiberglass 3 gunpowder
 AddAltAmmo betaCMag 10 fiberglass 12 gunpowder
-AddGun mp5 12 ingotIron
-AddAmmo mp5Ammo 2 ingotIron 2 gunpowder
-AddGun skorpion 10 ingotIron 1 log
-AddAmmo skorpionAmmo 2 ingotIron 2 gunpowder
-AddGun uzi 12 ingotIron
-AddAmmo uziAmmo 2 ingotIron 2 gunpowder
-AddGun ak74 12 ingotIron 8 fiberglass
-AddAmmo ak74Ammo 2 ingotIron 2 fiberglass 2 gunpowder
-AddGun p90 5 ingotIron 20 fiberglass
-AddAmmo p90Ammo 4 fiberglass 4 gunpowder
-AddGun bizon 12 ingotIron 8 fiberglass
-AddAmmo bizonAmmo 2 ingotIron 2 gunpowder
-AddGun w1200 16 ingotIron 6 fiberglass
-AddAmmo w1200Ammo 4 ingotIron 1 fiberglass 3 gunpowder
+AddGun mp5 10 ingotIron 2 fiberglass
+AddAmmo mp5Ammo 1 ingotIron 1 gunpowder
+AddGun skorpion 10 ingotIron 2 fiberglass
+AddAmmo skorpionAmmo 1 ingotIron 1 gunpowder
+AddGun uzi 10 ingotIron 2 fiberglass
+AddAmmo uziAmmo 1 ingotIron 1 gunpowder
+AddGun ak74 17 ingotIron 5 fiberglass 10 log
+AddAmmo ak74Ammo 2 ingotIron 3 gunpowder
+AddGun p90 20 ingotIron 5 fiberglass
+AddAmmo p90Ammo 1 fiberglass 1 gunpowder
+AddGun bizon 15 ingotIron 1 fiberglass
+AddAmmo bizonAmmo 1 ingotIron 1 gunpowder
+AddGun w1200 16 ingotIron 10 fiberglass
+AddAmmo w1200Ammo 3 ingotIron 1 fiberglass 2 gunpowder
 AddAltAmmo w1200IncendiaryAmmo 4 ingotIron 2 fiberglass 6 gunpowder 1 blazePowder
-AddGun m1014 12 ingotIron 10 fiberglass
-AddAmmo m1014Ammo 4 ingotIron 1 fiberglass 2 gunpowder
-AddGun r870 12 ingotIron 4 log
-AddAmmo r870Ammo 3 ingotIron 2 gunpowder
-AddGun spas 10 fiberglass 4 ingotIron
+AddGun m1014 12 ingotIron 12 fiberglass
+AddAmmo m1014Ammo 3 ingotIron 1 fiberglass 2 gunpowder
+AddGun r870 15 ingotIron 10 log
+AddAmmo r870Ammo 2 ingotIron 2 gunpowder
+AddGun spas 10 fiberglass 8 ingotIron
 AddAmmo spasAmmo 2 fiberglass 2 gunpowder
-AddGun m1887 6 ingotIron 4 log
-AddAmmo m1887Ammo 2 iron 2 gunpowder
-AddGun m249 24 ingotIron 5 fiberglass
-AddAmmo m249Ammo 6 ingotIron 5 fiberglass 6 gunpowder
-AddGun rpd 20 ingotIron 5 log
-AddAmmo rpdAmmo 6 ingotIron 8 gunpowder
-AddGun rpk 12 ingotIron 8 log
-AddAmmo rpkAmmo 5 ingotIron 4 gunpowder
-AddGun m60 24 ingotIron
-AddAmmo m60Ammo 8 ingotIron 2 fiberglass 8 gunpowder
-AddGun l86 20 ingotIron 5 fiberglass
-AddAmmo l86Ammo 8 ingotIron 6 gunpowder
-AddGun minigun 16 ingotIron 16 fiberglass 16 redstone
-AddAmmo minigunAmmo 16 ingotIron 32 gunpowder
-AddAltAmmo minigunExplosiveAmmo 16 ingotIron 256 gunpowder
-AddGun m9 4 ingotIron
+AddGun m1887 10 ingotIron 8 log
+AddAmmo m1887Ammo 2 ingotIron 2 gunpowder
+AddGun m249 25 ingotIron 8 fiberglass
+AddAmmo m249Ammo 8 ingotIron 10 gunpowder
+AddGun rpd 24 ingotIron 9 log
+AddAmmo rpdAmmo 8 ingotIron 10 gunpowder
+AddGun rpk 25 ingotIron 10 log
+AddAmmo rpkAmmo 4 ingotIron 4 gunpowder
+AddGun m60 30 ingotIron
+AddAmmo m60Ammo 7 ingotIron 1 fiberglass 5 gunpowder
+AddGun l86 15 ingotIron 13 fiberglass
+AddAmmo l86Ammo 8 ingotIron 10 gunpowder
+AddGun minigun 30 ingotIron 20 fiberglass 10 redstone
+AddAmmo minigunAmmo 20 ingotIron 30 gunpowder
+AddAltAmmo minigunExplosiveAmmo 30 ingotIron 256 gunpowder
+AddGun m9 5 ingotIron 1 fiberglass
 AddAmmo m9Ammo 1 ingotIron 1 gunpowder
-AddGun usp 5 ingotIron
+AddGun usp 5 ingotIron 1 fiberglass
 AddAmmo uspAmmo 1 ingotIron 1 gunpowder
 AddAltAmmo uspPoisonAmmo 2 ingotIron 2 gunpowder 2 spiderEye
-AddGun m1911 4 ingotIron
-AddAmmo m1911Ammo 2 ingotIron 1 gunpowder
-AddGun sigP226 4 ingotIron
+AddGun m1911 4 ingotIron 3 log
+AddAmmo m1911Ammo 1 ingotIron 1 gunpowder
+AddGun sigP226 5 ingotIron 1 fiberglass
 AddAmmo sigP226Ammo 1 ingotIron 1 gunpowder
-AddGun makarov 4 ingotIron
+AddGun makarov 5 ingotIron 1 fiberglass
 AddAmmo makarovAmmo 1 ingotIron 1 gunpowder
-AddGun glock 9 ingotIron
-AddAmmo glockAmmo 2 ingotIron 3 gunpowder
-AddGun desertEagle 12 ingotIron
-AddAmmo desertEagleAmmo 2 ingotIron 2 gunpowder
-AddGun goldDesertEagle 12 ingotGold
-AddAmmo desertEagleAmmo 2 ingotIron 2 gunpowder
+AddGun glock 5 ingotIron 1 fiberglass
+AddAmmo glockAmmo 1 ingotIron 1 gunpowder
+AddGun desertEagle 10 ingotIron 2 fiberglass
+AddAmmo desertEagleAmmo 6 ingotIron 6 gunpowder
+AddGun goldDesertEagle 15 ingotGold 5 ingotIron 3 fiberglass
+AddAmmo desertEagleAmmo 6 ingotIron 6 gunpowder
 AddGun rpg 25 ingotIron 10 log
 AddAmmo rpgAmmo 5 ingotIron 6 gunpowder
 AddGun m72law 12 ingotIron 8 fiberglass

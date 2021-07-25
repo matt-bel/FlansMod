@@ -9,13 +9,13 @@ ItemID 99999
 //Reload time in ticks, 1/20ths of a second
 ReloadTime 32
 //The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
-Recoil 2
+Recoil 3
 //Damage in half hearts
-Damage 5
+Damage 8
 //The higher this value, the more the bullets spread
-Accuracy 1.5
+Accuracy 3
 //Time in ticks between rounds
-ShootDelay 2
+ShootDelay 5
 ShootSound GlockShoot
 ReloadSound ColtReload
 Mode FullAuto

@@ -14,19 +14,19 @@ WWW
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
 NumGuns 16
-AddGun winchesterModel70 12 ingotIron 8 wood 4 glass
+AddGun winchesterModel70 14 ingotIron 9 wood 5 glass
 AddAmmo 3006Bullet 1 ingotIron 1 gunpowder
-AddGun m4Carbine 16 ingotIron
-AddAmmo m4CarbineAmmo 3 ingotIron 3 gunpowder
-AddGun mp5k 10 ingotIron
-AddAmmo mp5kAmmo 2 ingotIron 2 gunpowder
-AddGun olympia 12 ingotIron 8 wood
+AddGun m4Carbine 25 ingotIron 10 fiberglass
+AddAmmo m4CarbineAmmo 2 ingotIron 3 gunpowder
+AddGun mp5k 10 ingotIron 2 fiberglass
+AddAmmo mp5kAmmo 1 ingotIron 1 gunpowder
+AddGun olympia 14 ingotIron 12 wood
 AddAmmo 12gaugeShell 1 ingotIron 1 gunpowder
 AddAltAmmo 12gaugeShellIncendiary 1 ingotIron 3 gunpowder
-AddGun doubleBarrelledShotgun 8 ingotIron 6 wood
+AddGun doubleBarrelledShotgun 12 ingotIron 10 wood
 AddAmmo 12gaugeShell 1 ingotIron 1 gunpowder
 AddAltAmmo 12gaugeShellIncendiary 1 ingotIron 3 gunpowder
-AddGun coltPython 8 ingotIron
+AddGun coltPython 7 ingotIron 5 wood 2 fiberglass
 AddAmmo 357Magnum 1 ingotIron 1 gunpowder
 AddGun flareGun 9 ingotIron
 AddAmmo flareGunAmmo 2 ingotIron 2 gunpowder 1 redstone

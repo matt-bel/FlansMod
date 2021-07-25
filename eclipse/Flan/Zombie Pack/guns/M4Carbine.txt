@@ -1,3 +1,4 @@
+
 Name M4 Carbine
 ShortName m4Carbine
 //The ammo this gun uses (shortName)
@@ -10,9 +11,9 @@ ReloadTime 40
 //The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
 Recoil 3
 //Damage in half hearts
-Damage 5
+Damage 12
 //The higher this value, the more the bullets spread
-Accuracy 3
+Accuracy 4
 //Time in ticks between rounds
 ShootDelay 2
 ShootSound M4CarbineShoot

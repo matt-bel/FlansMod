@@ -15,18 +15,18 @@ III
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
 NumGuns 8
-AddGun type38 5 ingotIron 3 log
+AddGun type38 15 ingotIron 10 log
 AddAmmo type38Ammo 1 ingotIron 1 gunpowder
-AddGun type38Sniper 5 ingotIron 3 log 4 glass
+AddGun type38Sniper 10 ingotIron 8 log 4 glass
 AddAmmo type38Ammo 1 ingotIron 1 gunpowder
-AddGun type100 10 ingotIron 4 log
-AddAmmo type100Ammo 1 ingotIron 2 gunpowder
-AddGun type14 3 ingotIron 2 log
+AddGun type100 12 ingotIron 10 log
+AddAmmo type100Ammo 1 ingotIron 1 gunpowder
+AddGun type14 2 ingotIron 3 log
 AddAmmo type14Ammo 1 ingotIron 1 gunpowder
 AddGun panzerschreck 12 ingotIron 4 log
 AddAmmo panzerschreckAmmo 3 ingotIron 3 gunpowder
-AddGun type99 10 ingotIron 5 log
-AddAmmo type99Ammo 3 ingotIron 2 gunpowder
+AddGun type99 15 ingotIron 10 log
+AddAmmo type99Ammo 1 ingotIron 1 gunpowder
 AddGun flakvierling 4 aaBarrel 1 leather 1 blockIron 2 ingotIron
 AddAmmo flakvierlingAmmo 1 ingotIron 1 gunpowder
 AddGun type97 2 ingotIron 2 gunpowder

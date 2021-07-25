@@ -12,11 +12,11 @@ Recoil 3
 //Number of bullet entities to create, useful for shotguns, defaults to 1
 NumBullets 1
 //Damage in half hearts
-Damage 7
+Damage 8
 //The higher this value, the more the bullets spread
-Accuracy 6
+Accuracy 3
 //Time in ticks between rounds
-ShootDelay 1
+ShootDelay 6
 ShootSound SIGP229Shoot
 ReloadSound LugerReload
 Mode SemiAuto
