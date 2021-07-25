@@ -9,7 +9,7 @@ RotateWheels true
 //Third Person Camera Distance
 CameraDistance 5.0
 //Throttle
-MaxThrottle 0.6
+MaxThrottle 1.1
 MaxNegativeThrottle 0.4
 //Steering modifiers
 TurnLeftSpeed 0.45
@@ -48,9 +48,9 @@ GunOrigin 2 8 -10 23
 ShootDelay 999
 ShellDelay 999
 //Sounds
-StartSound jeepidle
+StartSound Engine
 StartSoundLength 7
-EngineSound jeepmove
+EngineSound Engine
 EngineSoundLength 61
 ShootSound bullet
 ShellSound shell
@@ -66,7 +66,7 @@ AddRecipeParts backRightWheel 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 5 gray
 //Health and collision
-SetupPart core 2000 -30 -10 -7 56 26 37
+SetupPart core 2000 -30 -10 -7 56 26 37 3
 
 BulletDetection 5
 Description German Motorcycle

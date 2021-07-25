@@ -9,8 +9,8 @@ RotateWheels True
 //Third Person Camera Distance
 CameraDistance 7.5
 //Throttle
-MaxThrottle 0.55
-MaxNegativeThrottle 0.5
+MaxThrottle 0.5
+MaxNegativeThrottle 0.45
 //Steering modifiers
 TurnLeftSpeed 0.5
 TurnRightSpeed 0.5
@@ -31,7 +31,7 @@ Tank true
 //Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
 FuelTankSize 2000
 //Inventory Slots
-CargoSlots 20
+CargoSlots 4
 ShellSlots 5
 //Driver and passenger positions
 Driver 0 28 0 -360 360 -10 12
@@ -67,10 +67,10 @@ AddRecipeParts rightTrack 2 catTrack
 AddDye 10 gray
 
 //Health and collision
-SetupPart core 5000 -55 -1 -23 120 27 46
-SetupPart turret 3950 -30 26 -30 60 18 60
-SetupPart leftTrack 3750 -60 -10 -37 120 22 14
-SetupPart rightTrack 3750 -60 -10 23 120 22 14
+SetupPart core 12000 -55 -1 -23 120 27 46 12
+SetupPart turret 4500 -30 26 -30 60 18 60 6
+SetupPart leftTrack 4000 -60 -10 -37 120 22 14 6
+SetupPart rightTrack 4000 -60 -10 23 120 22 14 6
 
 BulletDetection 5
 
