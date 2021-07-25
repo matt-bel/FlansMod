@@ -13,7 +13,7 @@ MaxStackSize 16
 //The damage multiplier caused by the bullet on hitting an entity
 Damage 50
 DamageVsLiving 100
-DamageVsVehicles 1000
+DamageVsVehicles 500
 //Size of explosion caused
 Explosion 3
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
@@ -27,7 +27,7 @@ BreaksGlass True
 HitBoxSize 1.0
 HitSound
 //Whether or not the bullet can travel through an entity having hit it
-Penetrates False
+Penetration 3
 SmokeTrail True
 //True if this is a bomb
 Bomb False

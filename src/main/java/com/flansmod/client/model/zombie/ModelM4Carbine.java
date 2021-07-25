@@ -7,14 +7,12 @@
 // Created on: 21.07.2019 - 15:43:55
 // Last changed on: 21.07.2019 - 15:43:55
 
-package com.flansmod.client.model.mw; //Path where the model is located
+package com.flansmod.client.model.zombie; //Path where the model is located
 
 import com.flansmod.client.model.EnumAnimationType;
 import com.flansmod.client.model.ModelGun;
-import com.flansmod.common.vector.Vector3f;
 import com.flansmod.client.tmt.ModelRendererTurbo;
-import com.flansmod.client.tmt.Coord2D;
-import com.flansmod.client.tmt.Shape2D;
+import com.flansmod.common.vector.Vector3f;
 
 public class ModelM4Carbine extends ModelGun //Same as Filename
 {

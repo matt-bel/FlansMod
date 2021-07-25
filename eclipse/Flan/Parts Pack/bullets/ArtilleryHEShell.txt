@@ -5,7 +5,7 @@ Model Bullet
 Colour 255 255 255
 Icon ArtilleryHEShell
 //How affected by gravity the bullet is
-FallSpeed 0.2
+FallSpeed 0.5
 //The number of rounds each item has. Limited to 32000.
 RoundsPerItem 1
 //The maximum stack size of a stack of these
@@ -13,7 +13,7 @@ MaxStackSize 16
 //The damage multiplier caused by the bullet on hitting an entity
 Damage 50
 DamageVsLiving 250
-DamageVsVehicles 100
+DamageVsVehicles 800
 //Size of explosion caused
 Explosion 5
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
@@ -27,13 +27,13 @@ BreaksGlass True
 HitBoxSize 1.0
 HitSound
 //Whether or not the bullet can travel through an entity having hit it
-Penetrates False
+Penetration 4
 SmokeTrail True
 //True if this is a bomb
 Bomb False
 Shell True
 RecipeOutput 3
-Recipe I ingotIron G gunpowder
+Recipe I ingotIron T tnt
  T 
  T 
 III
