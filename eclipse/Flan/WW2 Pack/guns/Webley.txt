@@ -13,7 +13,7 @@ Recoil 6
 //Damage in half hearts
 Damage 10
 //The higher this value, the more the bullets spread
-Accuracy 6
+Accuracy 8
 //Time in ticks between rounds
 ShootDelay 8
 ShootSound webleyShoot

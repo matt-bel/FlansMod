@@ -40,10 +40,10 @@ AlternateSecondary False
 ModePrimary FullAuto
 ModeSecondary FullAuto
 //Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
-ShootPointPrimary -16 17 14 turret 50Cal
-ShootPointPrimary -12 12 16 turret 50Cal
-ShootPointPrimary -16 17 -15 turret 50Cal
-ShootPointPrimary -12 12 -17 turret 50Cal
+ShootPointPrimary -16 17 14 turret browning
+ShootPointPrimary -12 12 16 turret browning
+ShootPointPrimary -16 17 -15 turret browning
+ShootPointPrimary -12 12 -17 turret browning
 // ------------------------------------------------------ Inventory ------------------------------------------------------
 CargoSlots 0
 BombSlots 0

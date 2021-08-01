@@ -41,7 +41,7 @@ Passengers 5
 Passenger 1 6 5 7 core
 Passenger 2 -37 10 12 core
 Passenger 3 -23 10 -12 core
-Passenger 4 -7 28 8 core -55 55 -10 45 50Cal PassengerGun4
+Passenger 4 -7 28 8 core -55 55 -10 45 browning PassengerGun4
 Passenger 5 -49 18 -7 core 140 220 -10 45 browning PassengerGun5
 GunOrigin 4 5 19 8
 GunOrigin 5 -54 13 -7

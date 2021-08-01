@@ -15,7 +15,7 @@ Damage 22
 //The higher this value, the more the bullets spread
 Accuracy 2
 //Time in ticks between rounds
-ShootDelay 20
+ShootDelay 24
 ShootSound leeEnfieldShoot
 ReloadSound leeEnfieldReload
 Mode SemiAuto

@@ -15,7 +15,7 @@ Damage 20
 //The higher this value, the more the bullets spread
 Accuracy 2
 //Time in ticks between rounds
-ShootDelay 20
+ShootDelay 27
 ShootSound Type38Shoot
 ReloadSound kar98kReload
 Mode SemiAuto

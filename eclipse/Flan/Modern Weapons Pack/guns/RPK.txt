@@ -3,7 +3,6 @@ ShortName rpk
 //The ammo this gun uses (shortName)
 Ammo rpkAmmo
 Ammo ak47Ammo
-Ammo rpdAmmo
 Icon RPK
 //Colour in Red, Green, Blue, each going up to 255.
 Colour 255 255 255
@@ -16,7 +15,7 @@ NumBullets 1
 //Damage in half hearts
 Damage 14
 //The higher this value, the more the bullets spread
-Accuracy 6
+Accuracy 7
 //Time in ticks between rounds
 ShootDelay 2
 ShootSound RPDShoot

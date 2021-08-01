@@ -15,7 +15,7 @@ Damage 26
 //The higher this value, the more the bullets spread
 Accuracy 1
 //Time in ticks between rounds
-ShootDelay 15
+ShootDelay 50
 ShootSound R700Shoot
 ReloadSound SpringfieldReload
 Mode SemiAuto

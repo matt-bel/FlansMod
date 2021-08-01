@@ -12,9 +12,9 @@ Recoil 8
 //Number of bullet entities to create, useful for shotguns, defaults to 1
 NumBullets 1
 //Damage in half hearts
-Damage 13
+Damage 12
 //The higher this value, the more the bullets spread
-Accuracy 3
+Accuracy 4
 //Time in ticks between rounds
 ShootDelay 3
 ShootSound M249Shoot

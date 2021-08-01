@@ -14,7 +14,7 @@ RestingPitch 5.0
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
 //Throttle
-MaxThrottle 5.0
+MaxThrottle 2.0
 MaxNegativeThrottle 0.0
 //Yaw modifiers
 TurnLeftSpeed 2.5
@@ -89,14 +89,14 @@ AddRecipeParts tailWheel 1 wheel
 AddDye 5 silver
 AddDye 1 yellow
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart core 200 -17 -7 -10 20 24 20
-SetupPart coreWheel 50 0 -20 -8 6 13 16
-SetupPart nose 100 3 -7 -10 48 18 20
-SetupPart rightWing 100 -7 -5 10 32 2 78
-SetupPart leftWing 100 -7 -5 -88 32 2 78
-SetupPart bay 200 -70 -7 -10 53 18 20
-SetupPart tail 100 -93 -5 -8 23 14 16
-SetupPart tailWheel 50 -85 -12 -2 6 7 4
+SetupPart core 1000 -17 -7 -10 20 24 20
+SetupPart coreWheel 500 0 -20 -8 6 13 16
+SetupPart nose 1000 3 -7 -10 48 18 20
+SetupPart rightWing 1000 -7 -5 10 32 2 78
+SetupPart leftWing 1000 -7 -5 -88 32 2 78
+SetupPart bay 2000 -70 -7 -10 53 18 20
+SetupPart tail 1000 -93 -5 -8 23 14 16
+SetupPart tailWheel 500 -85 -12 -2 6 7 4
 BulletDetection 10
 //Collision points for breaking wings etc. upon crashing
 //RightWing

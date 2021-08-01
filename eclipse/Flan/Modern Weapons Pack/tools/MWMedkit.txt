@@ -6,13 +6,13 @@ Colour 255 255 255
 ItemID 23856
 Heal true
 Repair false
-HealAmount 10
+HealAmount 8
 ToolLife 3
 DestroyOnEmpty true
 StackSize 1
 RecipeOutput 1
-Recipe F fiberglass P potion.8229
-FFF
+Recipe F fiberglass P potion.8229 L leather
+FLF
 PPP
 FFF
 RechargeRecipe 3 potion.8229

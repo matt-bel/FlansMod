@@ -13,9 +13,9 @@ Recoil 3
 //Damage in half hearts
 Damage 7
 //The higher this value, the more the bullets spread
-Accuracy 3
+Accuracy 1
 //Time in ticks between rounds
-ShootDelay 6
+ShootDelay 3
 ShootSound lugerShoot
 ReloadSound lugerReload
 Mode SemiAuto

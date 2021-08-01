@@ -13,7 +13,7 @@ Recoil 4
 //Damage in half hearts
 Damage 8
 //The higher this value, the more the bullets spread
-Accuracy 6
+Accuracy 5
 //Time in ticks between rounds
 ShootDelay 2
 ShootSound MP5Shoot

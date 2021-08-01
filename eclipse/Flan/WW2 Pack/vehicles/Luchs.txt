@@ -41,7 +41,7 @@ BarrelPosition 5 25 0
 //Secondary gun
 AddGun 8 20 0 turret mg42
 AllowAllAmmo False
-AddAmmo 20mmAmmo
+AddAmmo 20mm
 AddAmmo TankSmokeShell
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1

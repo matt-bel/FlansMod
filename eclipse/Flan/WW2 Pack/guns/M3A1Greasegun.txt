@@ -13,7 +13,7 @@ Recoil 7
 //Damage in half hearts
 Damage 10
 //The higher this value, the more the bullets spread
-Accuracy 8
+Accuracy 10
 //Time in ticks between rounds
 ShootDelay 3
 ShootSound M3A1Shoot

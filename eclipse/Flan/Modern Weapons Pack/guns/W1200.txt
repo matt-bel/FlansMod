@@ -10,15 +10,15 @@ ItemID 23831
 //Reload time in ticks, 1/20ths of a second
 ReloadTime 110
 //The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
-Recoil 15
+Recoil 25
 //Number of bullet entities to create, useful for shotguns, defaults to 1
-NumBullets 12
+NumBullets 8
 //Damage in half hearts
 Damage 4
 //The higher this value, the more the bullets spread
-Accuracy 15
+Accuracy 25
 //Time in ticks between rounds
-ShootDelay 10
+ShootDelay 17
 ShootSound W1200Shoot
 ReloadSound W1200Reload
 Mode SemiAuto

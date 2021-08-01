@@ -7,20 +7,24 @@ Icon thompson
 Colour 255 255 255
 ItemID 23621
 //Reload time in ticks, 1/20ths of a second
+<<<<<<< Updated upstream
 ReloadTime 65
+=======
+ReloadTime 45
+>>>>>>> Stashed changes
 //The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
 Recoil 6
 //Damage in half hearts
-Damage 9
+Damage 10
 //The higher this value, the more the bullets spread
 Accuracy 9
 //Time in ticks between rounds
-ShootDelay 3
+ShootDelay 5
 ShootSound thompsonShoot
 ReloadSound thompsonReload
 Mode FullAuto
 //Bullet speed, default 3.0
-BulletSpeed 10.0
+BulletSpeed 8.0
 Scope None
 Deployable False
 DeployedModel None

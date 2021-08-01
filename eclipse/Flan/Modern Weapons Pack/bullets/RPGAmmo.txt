@@ -14,7 +14,7 @@ MaxStackSize 2
 RoundsPerItem 1
 //The damage multiplier caused by the bullet on hitting an entity
 DamageVsLiving 20
-DamageVsVehicles 900
+DamageVsVehicles 1500
 //Size of explosion caused
 Explosion 2
 ExplosionBreaksBlocks false

@@ -8,12 +8,12 @@ Icon StingerAmmo
 //How affected by gravity the bullet is
 FallSpeed 0.25
 //The maximum stack size
-MaxStackSize 2
+MaxStackSize 3
 //The number of rounds each item has. Limited to 32000.
 RoundsPerItem 1
 //The damage multiplier caused by the bullet on hitting an entity
 DamageVsLiving 20
-DamageVsVehicles 700
+DamageVsVehicles 3700
 //Size of explosion caused
 Explosion 2
 ExplosionBreaksBlocks false
@@ -28,9 +28,9 @@ BreaksGlass True
 HitBoxSize 0.1
 HitSound bullet
 //Whether or not the bullet can travel through an entity having hit it
-Penetrates False
+Penetrates True
 SmokeTrail True
 LockOnToDriveables True
-LockOnToPlayers False
+LockOnToPlayers True
 LockOnToLivings False
 MaxLockOnAngle 20.0

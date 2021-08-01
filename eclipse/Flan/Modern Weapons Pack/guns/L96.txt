@@ -14,7 +14,7 @@ Damage 26
 //The higher this value, the more the bullets spread
 Accuracy 1
 //Time in ticks between rounds
-ShootDelay 8
+ShootDelay 40
 ShootSound L96Shoot
 ReloadSound BARReload
 Mode SemiAuto

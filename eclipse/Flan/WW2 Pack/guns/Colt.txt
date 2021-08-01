@@ -15,7 +15,7 @@ Damage 10
 //The higher this value, the more the bullets spread
 Accuracy 4
 //Time in ticks between rounds
-ShootDelay 6
+ShootDelay 5
 ShootSound coltShoot
 ReloadSound coltReload
 Mode SemiAuto

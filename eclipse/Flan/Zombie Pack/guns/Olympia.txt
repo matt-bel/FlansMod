@@ -7,15 +7,19 @@ Icon Olympia
 //Colour in Red, Green, Blue, each going up to 255.
 Colour 255 255 255
 //Reload time in ticks, 1/20ths of a second
+<<<<<<< Updated upstream
 ReloadTime 100
+=======
+ReloadTime 80
+>>>>>>> Stashed changes
 //The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
-Recoil 15
+Recoil 25
 //Damage in half hearts
-Damage 4
+Damage 6
 //The higher this value, the more the bullets spread
-Accuracy 17
+Accuracy 20
 //Number of bullet entities to create, useful for shotguns, defaults to 1
-NumBullets 12
+NumBullets 5
 //For guns in which the magazine is integrated
 LoadIntoGun 2
 //Time in ticks between rounds

@@ -19,7 +19,7 @@ ShootSound RPGShoot
 ReloadSound BazookaReload
 Mode SemiAuto
 //Bullet speed, default 3.0
-BulletSpeed 1.0
+BulletSpeed 4.0
 //Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
 Scope None
 ZoomLevel 1.0
