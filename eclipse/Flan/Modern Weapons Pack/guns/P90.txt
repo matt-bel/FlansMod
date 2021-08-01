@@ -7,11 +7,7 @@ Icon P90
 Colour 255 255 255
 ItemID 23829
 //Reload time in ticks, 1/20ths of a second
-<<<<<<< Updated upstream
-ReloadTime 40
-=======
 ReloadTime 70
->>>>>>> Stashed changes
 //The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
 Recoil 6
 //Damage in half hearts
