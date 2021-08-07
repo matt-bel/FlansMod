@@ -14,7 +14,7 @@ RestingPitch 8.0
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
 //Throttle
-MaxThrottle 4.5
+MaxThrottle 1.7
 MaxNegativeThrottle 0.0
 //Yaw modifiers
 TurnLeftSpeed 3.5
@@ -26,7 +26,7 @@ LookDownSpeed 1.7
 RollLeftSpeed 3
 RollRightSpeed 3
 //Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
-Drag 2.0
+Drag 3.0
 //Wheels
 NumWheels 3
 WheelPosition 0 20 -28 -24
@@ -52,6 +52,7 @@ ModeSecondary FullAuto
 //Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
 ShootPointPrimary 80 11 6 nose type99
 ShootPointPrimary 80 11 -6 nose type99
+ShootPointPrimary 80 11 0 nose Aircraft20mm
 ShootPointSecondary -30 -22 0
 // ------------------------------------------------------ Inventory ------------------------------------------------------
 CargoSlots 0

@@ -14,7 +14,7 @@ RestingPitch 5.0
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
 //Throttle
-MaxThrottle 1.5
+MaxThrottle 0.7
 MaxNegativeThrottle 0.0
 //Yaw modifiers
 TurnLeftSpeed 1.5
@@ -26,7 +26,7 @@ LookDownSpeed 0.6
 RollLeftSpeed 1.5
 RollRightSpeed 1.5
 //Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
-Drag 1.0
+Drag 5.0
 //Wheels
 NumWheels 3
 WheelPosition 0 2 -13 -6
@@ -84,14 +84,14 @@ AddRecipeParts tailWheel 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 4 red
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart core 100 -12 -7 -11 24 14 22
-SetupPart coreWheel 20 0 -15 -7 4 8 14
-SetupPart nose 50 12 -7 -9 14 10 18
-SetupPart leftWing 40 6 -7 -50 18 13 41
-SetupPart rightWing 40 6 -7 9 18 13 41
-SetupPart topWing 60 6 18 -50 18 2 100
-SetupPart tail 60 -51 -6 -5 40 8 10
-SetupPart tailWheel 10 -48 -10 -1 4 4 2
+SetupPart core 750 -12 -7 -11 24 14 22
+SetupPart coreWheel 200 0 -15 -7 4 8 14
+SetupPart nose 500 12 -7 -9 14 10 18
+SetupPart leftWing 400 6 -7 -50 18 13 41
+SetupPart rightWing 400 6 -7 9 18 13 41
+SetupPart topWing 600 6 18 -50 18 2 100
+SetupPart tail 600 -51 -6 -5 40 8 10
+SetupPart tailWheel 100 -48 -10 -1 4 4 2
 BulletDetection 5
 //Collision points for breaking wings etc. upon crashing
 //RightWing

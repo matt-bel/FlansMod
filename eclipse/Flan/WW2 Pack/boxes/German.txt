@@ -14,7 +14,7 @@ III
 //And with parts from this mod, they are the shortName of the item
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
-NumGuns 12
+NumGuns 13
 AddGun kar98k 12 ingotIron 10 log
 AddAmmo kar98kAmmo 1 ingotIron 1 gunpowder
 AddGun kar98kSniper 12 ingotIron 10 log 7 glass
@@ -36,6 +36,8 @@ AddAmmo panzerfaustAmmo 1 ingotIron 2 gunpowder
 AddGun mg42 15 ingotIron 10 log
 AddAmmo mg42Ammo50 1 ingotIron 1 gunpowder
 AddAltAmmo mg42Ammo250 5 ingotIron 5 gunpowder
+AddGun MG151 26 ingotIron 10 log
+AddAmmo MG151Ammo 3 ingotIron 5 gunpowder
 AddGun flakvierling 4 aaBarrel 1 leather 1 blockIron 2 ingotIron
 AddAmmo flakvierlingAmmo 1 ingotIron 1 gunpowder
 AddGun stielhandgranate 2 ingotIron 2 gunpowder

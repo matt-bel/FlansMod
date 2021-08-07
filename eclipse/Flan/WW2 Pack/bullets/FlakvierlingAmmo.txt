@@ -11,9 +11,10 @@ FallSpeed 0.25
 MaxStackSize 16
 //The number of rounds each item has. Limited to 32000.
 RoundsPerItem 20
+WeaponType Shell
 //The damage multiplier caused by the bullet on hitting an entity
-DamageVsLiving 3
-DamageVsVehicles 250
+DamageVsLiving 1
+DamageVsVehicles 200
 //Size of explosion caused
 Explosion 0
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating

@@ -33,10 +33,12 @@ AddGun colt 3 ingotIron 5 log
 AddAmmo coltAmmo 1 ingotIron 1 gunpowder
 AddGun bazooka 10 ingotIron 8 log
 AddAmmo bazookaAmmo 2 ingotIron 2 gunpowder
-AddGun flamethrower 5 ingotIron 1 flint
+AddGun flamethrower 20 ingotIron 5 flint
 AddAmmo flamethrowerAmmo 1 ingotIron 1 slimeball 1 blazePowder
 AddGun browning 15 ingotIron 10 log
 AddAmmo browningAmmo 5 ingotIron 5 gunpowder
+AddGun 50Cal 20 ingotIron 10 log
+AddAmmo 50CalAmmo 5 ingotIron 7 gunpowder
 AddGun bofors 1 aaBarrel 1 leather 1 blockIron 2 wheel
 AddAmmo boforsAmmo 1 ingotIron 1 gunpowder
 AddGun mk2Frag 2 ingotIron 2 gunpowder

@@ -14,19 +14,19 @@ RestingPitch 5.0
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
 //Throttle
-MaxThrottle 2.0
+MaxThrottle 1.7
 MaxNegativeThrottle 0.0
 //Yaw modifiers
-TurnLeftSpeed 2.5
-TurnRightSpeed 2.5
+TurnLeftSpeed 1.5
+TurnRightSpeed 1.5
 //Pitch modifiers
-LookUpSpeed 1.5
-LookDownSpeed 1.7
+LookUpSpeed 1.7
+LookDownSpeed 1.5
 //Roll modifiers
 RollLeftSpeed 2
 RollRightSpeed 2
 //Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
-Drag 1.0
+Drag 3.0
 //Wheels
 NumWheels 3
 WheelPosition 0 3 -17 -7
@@ -50,8 +50,10 @@ AlternateSecondary False
 ModePrimary FullAuto
 ModeSecondary FullAuto
 //Add shoot origins. These are the points on your vehicle from which bullets / missiles / shells / bombs appear
-ShootPointPrimary 40 -4 44 rightWing browning
-ShootPointPrimary 40 -4 -44 leftWing browning
+ShootPointPrimary 40 -4 44 rightWing 50Cal
+ShootPointPrimary 40 -3 36 rightWing 50Cal
+ShootPointPrimary 40 -4 -44 leftWing 50Cal
+ShootPointPrimary 40 -3 -36 leftWing 50Cal
 ShootPointSecondary -30 -12 0
 // ------------------------------------------------------ Inventory ------------------------------------------------------
 CargoSlots 0
@@ -88,14 +90,14 @@ AddRecipeParts tailWheel 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 6 green
 // ------------------------------------------------------ Health and hitboxes ------------------------------------------------------
-SetupPart core 200 -17 -7 -10 20 24 20
-SetupPart coreWheel 50 0 -20 -8 6 13 16
-SetupPart nose 100 3 -7 -10 48 18 20
-SetupPart rightWing 100 -7 -5 10 32 2 78
-SetupPart leftWing 100 -7 -5 -88 32 2 78
-SetupPart bay 200 -70 -7 -10 53 18 20
-SetupPart tail 100 -93 -5 -8 23 14 16
-SetupPart tailWheel 50 -85 -12 -2 6 7 4
+SetupPart core 2000 -17 -7 -10 20 24 20
+SetupPart coreWheel 500 0 -20 -8 6 13 16
+SetupPart nose 1000 3 -7 -10 48 18 20
+SetupPart rightWing 1000 -7 -5 10 32 2 78
+SetupPart leftWing 1000 -7 -5 -88 32 2 78
+SetupPart bay 2000 -70 -7 -10 53 18 20
+SetupPart tail 1000 -93 -5 -8 23 14 16
+SetupPart tailWheel 500 -85 -12 -2 6 7 4
 BulletDetection 10
 //Collision points for breaking wings etc. upon crashing
 //RightWing

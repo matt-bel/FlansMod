@@ -182,3 +182,7 @@ item.SU-1-12.name=SU-1-12
 item.StuG.name=StuG IV
 item.T3485.name=T-34-85
 item.UC2Pdr.name=Universal Carrier 2 Pdr
+item.Aircraft20mm.name=Aircraft 20mm
+item.Aircraft20mmAmmo.name=Aircraft 20mm Ammo
+item.50Cal.name=.50 Caliber MG
+item.50CalAmmo.name=.50 Caliber MG Ammo
