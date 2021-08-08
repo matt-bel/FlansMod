@@ -9,7 +9,7 @@ Texture HoRo
 //Third Person Camera Distance
 CameraDistance 7.5
 //Throttle
-MaxThrottle 0.85
+MaxThrottle 0.70
 MaxNegativeThrottle 0.5
 //Steering modifiers
 TurnLeftSpeed 0.5
@@ -46,7 +46,7 @@ AddAmmo ArtilleryHEShell
 AddGun 8 34 8 turret type99
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
-ShellDelay 150
+ShellDelay 160
 //Sounds
 StartSound TankIdle
 StartSoundLength 20
@@ -67,6 +67,6 @@ AddDye 10 gray
 //Health and collision
 SetupPart leftTrack 1500 -44 -10 -21 90 20 6
 SetupPart rightTrack 1500 -44 -10 15 90 20 6
-SetupPart turret 1500 -24 20 -18 45 12 36
-SetupPart core 1500 -40 -4 -15 86 24 30
+SetupPart turret 2500 -24 20 -18 45 12 36
+SetupPart core 5000 -40 -4 -15 86 24 30
 BulletDetection 7

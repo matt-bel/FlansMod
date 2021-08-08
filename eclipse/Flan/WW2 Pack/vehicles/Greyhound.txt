@@ -42,8 +42,8 @@ GunOrigin 1 50 -1 10
 //Secondary gun
 AddGun 8 20 10 turret browning
 AllowAllAmmo False
-AddAmmo shell
-AddAmmo HEshell
+AddAmmo smallAPshell
+AddAmmo smallHEshell
 BarrelPosition 40 28 0
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
@@ -56,7 +56,6 @@ EngineSoundLength 20
 ShootSoundPrimary Tank4Shoot
 ShootSoundSecondary BrowningShoot
 TurretRotationSpeed 0.035
-DamageModifierPrimary 22
 //Recipe
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,

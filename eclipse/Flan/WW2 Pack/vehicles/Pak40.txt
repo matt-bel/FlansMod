@@ -36,6 +36,7 @@ RotatedDriverOffset -8 0 -12
 Passengers 0
 BarrelPosition 0 20 0
 //Delays are in ticks or 1/20ths of seconds
+AddAmmo ArtilleryHEShell
 ShootDelay 1
 ShellDelay 110
 //Sounds
@@ -54,7 +55,7 @@ AddRecipeParts rightTrack 1 largeWheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 10 gray
 //Health and collision
-SetupPart core 2500 -40 -8 -18 60 24 36
+SetupPart core 5000 -40 -8 -18 60 24 36
 SetupPart leftTrack 1000 -12 -8 -26 16 16 4
 SetupPart rightTrack 1000 -12 -8 22 16 16 4
 BulletDetection 7

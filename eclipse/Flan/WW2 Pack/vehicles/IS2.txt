@@ -9,11 +9,11 @@ RotateWheels true
 //Third Person Camera Distance
 CameraDistance 7.5
 //Throttle
-MaxThrottle 0.5
+MaxThrottle 0.55
 MaxNegativeThrottle 0.35
 //Steering modifiers
-TurnLeftSpeed 0.25
-TurnRightSpeed 0.25
+TurnLeftSpeed 0.4
+TurnRightSpeed 0.4
 //For calculating whether wheels are on the ground or not for driving
 WheelRadius 1.0
 //Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
@@ -39,8 +39,8 @@ RotatedDriverOffset -8 0 -9
 Passengers 0
 //GunOrigin 1 0 40 0
 BarrelPosition 0 34 0
-AddAmmo shell
-AddAmmo HEshell
+AddAmmo heavyAPshell
+AddAmmo heavyHEshell
 //Secondary gun
 AddGun 8 20 0 turret dp28
 //Delays are in ticks or 1/20ths of seconds
@@ -54,7 +54,7 @@ EngineSoundLength 60
 ShootSoundPrimary Tank2Shoot
 ShootSoundSecondary MG42Shoot
 TurretRotationSpeed 0.02
-DamageModifierPrimary 80
+DamageModifierPrimary 1.2
 //Recipe
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
@@ -68,8 +68,8 @@ AddDye 15 green
 AddDye 3 white
 
 //Health and collision
-SetupPart core 10500 -55 -1 -23 120 27 46
-SetupPart turret 9300 -30 26 -30 60 18 60
+SetupPart core 19500 -55 -1 -23 120 27 46
+SetupPart turret 14300 -30 26 -30 60 18 60
 SetupPart leftTrack 6000 -60 -10 -37 120 22 14
 SetupPart rightTrack 6000 -60 -10 23 120 22 14
 

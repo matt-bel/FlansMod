@@ -44,10 +44,11 @@ BarrelPosition 10 34 0
 //Secondary gun
 AddGun 8 34 8 turret mg42
 AllowAllAmmo False
-AddAmmo shell
+AddAmmo smallAPshell
+AddAmmo smallHEshell
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
-ShellDelay 100
+ShellDelay 80
 //Sounds
 StartSound TankIdle
 StartSoundLength 20
@@ -66,9 +67,9 @@ AddRecipeParts rightTrack 1 catTrack
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 10 gray
 //Health and collision
-SetupPart core 12000 -43 -3 -26 85 23 52
-SetupPart turret 12000 -28 20 -25 50 12 49
-SetupPart rightTrack 8000 -48 -10 -25 102 19 7
-SetupPart leftTrack 8000 -48 -10 18 102 19 7
+SetupPart core 10000 -43 -3 -26 85 23 52
+SetupPart turret 5000 -28 20 -25 50 12 49
+SetupPart rightTrack 4000 -48 -10 -25 102 19 7
+SetupPart leftTrack 4000 -48 -10 18 102 19 7
 BulletDetection 5
 ModelScale 0.85

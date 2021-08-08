@@ -31,7 +31,7 @@ Tank false
 //Fuel Tank Size (1 point of fuel will keep one propeller going with throttle at 1 for 1 tick)
 FuelTankSize 2000
 //Inventory Slots
-CargoSlots 20
+CargoSlots 5
 ShellSlots 5
 //Driver and passenger positions
 Driver 44 15 -7 -360 360 -5 30
@@ -45,7 +45,7 @@ AllowAllAmmo False
 AddAmmo ArtilleryHEShell
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
-ShellDelay 90
+ShellDelay 120
 //Sounds
 StartSound TankIdle
 StartSoundLength 20
@@ -67,9 +67,9 @@ AddRecipeParts backRightWheel 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 10 gray
 //Health and collision
-SetupPart core 9800 -43 -3 -26 85 23 52
-SetupPart rightTrack 8000 -48 -10 -25 102 19 7
-SetupPart leftTrack 8000 -48 -10 18 102 19 7
+SetupPart core 6000 -43 -3 -26 85 23 52
+SetupPart rightTrack 3000 -48 -10 -25 102 19 7
+SetupPart leftTrack 3000 -48 -10 18 102 19 7
 BulletDetection 7
 ModelScale 1
 Description Soviet Light SPG

@@ -36,10 +36,10 @@ RotatedDriverOffset -9 0 14
 Passengers 0
 BarrelPosition 0 15 0
 //Delays are in ticks or 1/20ths of seconds
-AddAmmo shell
-AddAmmo HEshell
+AddAmmo mediumAPShell
+AddAmmo mediumHEShell
 ShootDelay 1
-ShellDelay 150
+ShellDelay 100
 //Sounds
 StartSound
 StartSoundLength 0
@@ -47,7 +47,6 @@ EngineSound
 EngineSoundLength 0
 ShootSoundPrimary Tank2Shoot
 TurretRotationSpeed 0.03
-DamageModifierPrimary 82
 //Recipe
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
@@ -56,7 +55,7 @@ AddRecipeParts core 1 tankBarrel 1 vehicleSeat 16 ingotIron 1 gunShield
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 8 gray
 //Health and collision
-SetupPart core 2500 -40 -8 -18 60 24 36
+SetupPart core 4000 -40 -8 -18 60 24 36
 BulletDetection 7
 ModelScale 1.2
 Description German Anti-Aircraft/Tank Gun

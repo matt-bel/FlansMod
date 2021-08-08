@@ -1,0 +1,28 @@
+Name Shells and Vehicle Parts Box
+ShortName shells
+TopTexture shellboxtop
+SideTexture shellboxside
+BottomTexture shellboxbot
+Recipe I ingotIron A anvil
+III
+ A
+III
+//AddGun shortName amountOf item
+//AddAmmo must come immediately after AddGun for them to be in the same slot
+//The names of the items / blocks are those in the code, with some exceptions such as ingotIron (ingotingotIron) and gunpowder (sulphur)
+//And with parts from this mod, they are the shortName of the item
+//Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
+//NumGuns must come before all the addGun lines and must be correct.
+NumGuns 4
+AddGun 2Pdr 9 ingotIron
+AddAmmo British2pdrAPShell 1 ingotIron 1 gunpowder
+AddGun smallAPshell 2 ingotIron 1 gunpowder
+AddGun smallHEshell 1 ingotIron 2 gunpowder
+AddGun mediumAPshell 3 ingotIron 1 gunpowder
+AddGun mediumHEshell 1 ingotIron 3 gunpowder
+AddGun heavyAPshell 3 ingotIron 2 gunpowder
+AddGun heavyHEshell 2 ingotIron 3 gunpowder
+AddGun modernAPshell 4 ingotIron 2 gunpowder
+AddGun modernHEshell 2 ingotIron 4 gunpowder
+AddGun ArtilleryHEShell 3 ingotIron 2 tnt
+AddGun 20mm 2 ingotIron 2 gunpowder

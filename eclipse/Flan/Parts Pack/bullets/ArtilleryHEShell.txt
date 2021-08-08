@@ -32,8 +32,3 @@ SmokeTrail True
 //True if this is a bomb
 Bomb False
 Shell True
-RecipeOutput 3
-Recipe I ingotIron T tnt
- T 
- T 
-III

@@ -45,7 +45,9 @@ BarrelPosition 0 34 0
 AddGun 8 34 8 turret dp28
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 2
-ShellDelay 110
+ShellDelay 100
+AddAmmo smallAPshell
+AddAmmo smallHEshell
 //Sounds
 StartSound TankIdle
 StartSoundLength 20
@@ -53,6 +55,7 @@ EngineSound TankMove
 EngineSoundLength 60
 ShootSoundPrimary Tank1Shoot
 ShootSoundSecondary DP28Shoot
+DamageModifierPrimary 1.2
 //Recipe
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
@@ -64,8 +67,8 @@ AddRecipeParts rightTrack 1 catTrack
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 10 gray
 //Health and collision
-SetupPart core 7950 -73 1 -19 124 18 38
-SetupPart turret 3450 -42 19 -29 58 18 58
+SetupPart core 17950 -73 1 -19 124 18 38
+SetupPart turret 13450 -42 19 -29 58 18 58
 SetupPart leftTrack 1975 -68 -10 -33 117 20 14
 SetupPart rightTrack 1975 -68 -10 19 117 20 14
 BulletDetection 7

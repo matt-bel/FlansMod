@@ -36,6 +36,7 @@ RotatedDriverOffset -8 0 -9
 Passengers 0
 BarrelPosition 0 20 0
 //Delays are in ticks or 1/20ths of seconds
+AddAmmo ArtilleryHEShell
 ShootDelay 1
 ShellDelay 110
 //Sounds

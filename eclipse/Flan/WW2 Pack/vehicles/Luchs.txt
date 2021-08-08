@@ -9,7 +9,7 @@ RotateWheels True
 //Third Person Camera Distance
 CameraDistance 7.5
 //Throttle
-MaxThrottle 0.75
+MaxThrottle 0.8
 MaxNegativeThrottle 0.65
 //Steering modifiers
 TurnLeftSpeed 0.55
@@ -53,7 +53,7 @@ EngineSound TankMove
 EngineSoundLength 60
 ShootSoundPrimary Flak1Shoot
 ShootSoundSecondary MG42Shoot
-TurretRotationSpeed 0.03
+TurretRotationSpeed 0.04
 //Recipe
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
@@ -65,8 +65,8 @@ AddRecipeParts rightTrack 1 catTrack
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 8 gray
 //Health and collision
-SetupPart core 8720 -46 -3 -16 93 23 33
-SetupPart turret 8520 -21 20 -20 40 12 40
+SetupPart core 8220 -46 -3 -16 93 23 33
+SetupPart turret 5020 -21 20 -20 40 12 40
 SetupPart rightTrack 6000 -39 -10 -27 85 20 10
 SetupPart leftTrack 6000 -39 -10 17 85 20 10
 BulletDetection 7

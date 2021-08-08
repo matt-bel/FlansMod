@@ -39,12 +39,13 @@ Passengers 0
 //Passenger 1 0 34 0 turret -360 360 -15 60 bren Bren
 //GunOrigin 1 0 40 0
 BarrelPosition 0 34 0
-AddAmmo shell
+AddAmmo mediumAPShell
+AddAmmo mediumHEShell
 //Secondary gun
 AddGun 8 20 0 turret mg42
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
-ShellDelay 145
+ShellDelay 130
 //Sounds
 StartSound TankIdle
 StartSoundLength 20
@@ -64,8 +65,8 @@ AddRecipeParts rightTrack 1 catTrack
 AddDye 10 gray
 
 //Health and collision
-SetupPart core 5500 -55 -1 -23 120 27 46
-SetupPart turret 5000 -30 26 -30 60 18 60
+SetupPart core 18000 -55 -1 -23 120 27 46
+SetupPart turret 10000 -30 26 -30 60 18 60
 SetupPart leftTrack 4250 -60 -10 -37 120 22 14
 SetupPart rightTrack 4250 -60 -10 23 120 22 14
 

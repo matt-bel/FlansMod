@@ -31,8 +31,6 @@ AddAltAmmo brenAmmo100 2 ingotIron 3 gunpowder
 AddGun bofors 1 aaBarrel 1 leather 1 blockIron 2 wheel
 AddAmmo boforsAmmo 1 ingotIron 2 gunpowder
 AddGun millsBomb 2 ingotIron 2 gunpowder
-AddGun 2Pdr 9 ingotIron
-AddAmmo British2pdrAPShell 3 ingotIron 3 gunpowder
 AddGun vickersk 20 ingotIron 5 log
 AddAmmo vickerskAmmo100 2 ingotIron 3 gunpowder
 AddGun vickerskGO 2 vickersk 4 ingotIron

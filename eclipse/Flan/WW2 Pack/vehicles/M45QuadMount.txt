@@ -73,10 +73,10 @@ AddRecipeParts rightTrack 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 4 green
 //Health and collision
-SetupPart core 50 -20 -8 -8 40 4 16
-SetupPart turret 40 -10 -4 -10 20 12 20
-SetupPart leftTrack 20 -20 -8 -10 40 6 2
-SetupPart rightTrack 20 -20 -8 8 40 6 2
+SetupPart core 500 -20 -8 -8 40 4 16
+SetupPart turret 400 -10 -4 -10 20 12 20
+SetupPart leftTrack 200 -20 -8 -10 40 6 2
+SetupPart rightTrack 200 -20 -8 8 40 6 2
 BulletDetection 7
 ModelScale 1
 Description Amercian AA Gun

@@ -66,7 +66,7 @@ AddRecipeParts backRightWheel 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 5 gray
 //Health and collision
-SetupPart core 3000 -30 -10 -7 56 26 37 3
+SetupPart core 4000 -30 -10 -7 56 26 37 3
 
 BulletDetection 5
 Description German Motorcycle

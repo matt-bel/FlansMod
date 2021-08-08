@@ -1,5 +1,5 @@
-Name AP Tank Shell
-ShortName shell
+Name Small AP Tank Shell
+ShortName smallAPshell
 Model Bullet
 //Colour of icon and model
 Colour 255 255 255
@@ -13,7 +13,7 @@ MaxStackSize 16
 //The damage multiplier caused by the bullet on hitting an entity
 Damage 50
 DamageVsLiving 20
-DamageVsVehicles 2000
+DamageVsVehicles 700
 //Size of explosion caused
 Explosion 1
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
@@ -32,8 +32,3 @@ SmokeTrail True
 //True if this is a bomb
 Bomb False
 Shell True
-RecipeOutput 3
-Recipe I ingotIron G gunpowder
-   
-GGG
-III

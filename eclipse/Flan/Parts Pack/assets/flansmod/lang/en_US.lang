@@ -1,6 +1,12 @@
 item.smallBomb.name=Small Bomb
-item.shell.name=AP Tank Shell
-item.HEshell.name=HE Tank Shell
+item.smallAPshell.name=Small AP Tank Shell
+item.smallHEshell.name=Small HE Tank Shell
+item.mediumAPshell.name=Medium AP Tank Shell
+item.mediumHEshell.name=Medium HE Tank Shell
+item.heavyAPshell.name=Heavy AP Tank Shell
+item.heavyHEshell.name=Heavy HE Tank Shell
+item.modernAPshell.name=Modern AP Tank Shell
+item.modernHEshell.name=Modern HE Tank Shell
 item.ArtilleryHEShell.name=Artillery Shell
 item.napalm.name=Napalm
 item.largeBomb.name=Large Bomb

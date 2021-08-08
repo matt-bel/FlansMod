@@ -9,7 +9,7 @@ Texture T34
 //Third Person Camera Distance
 CameraDistance 7.5
 //Throttle
-MaxThrottle 0.75
+MaxThrottle 0.8
 MaxNegativeThrottle 0.6
 //Steering modifiers
 TurnLeftSpeed 0.55
@@ -41,7 +41,8 @@ BarrelPosition 0 30 0
 //Secondary gun
 AddGun 8 34 8 turret dp28
 AllowAllAmmo False
-AddAmmo shell
+AddAmmo smallAPshell
+AddAmmo smallHEshell
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
 ShellDelay 60
@@ -63,8 +64,8 @@ AddRecipeParts rightTrack 1 catTrack
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 10 green
 //Health and collision
-SetupPart core 4500 -73 -8 -18 115 31 36
-SetupPart turret 2000 -21 24 -19 42 17 42
-SetupPart leftTrack 1250 -73 -10 -27 109 19 8
-SetupPart rightTrack 1250 -73 -10 18 109 19 8
+SetupPart core 9500 -73 -8 -18 115 31 36
+SetupPart turret 4000 -21 24 -19 42 17 42
+SetupPart leftTrack 2250 -73 -10 -27 109 19 8
+SetupPart rightTrack 2250 -73 -10 18 109 19 8
 BulletDetection 7

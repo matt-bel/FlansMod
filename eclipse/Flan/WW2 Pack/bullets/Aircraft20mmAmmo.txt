@@ -12,8 +12,8 @@ MaxStackSize 2
 RoundsPerItem 100
 //The damage multiplier caused by the bullet on hitting an entity
 DamageVsLiving 5
-DamageVsVehicles 25
-DamageVsPlanes 300
+DamageVsVehicles 17
+DamageVsPlanes 200
 //Size of explosion caused
 Explosion 1
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating

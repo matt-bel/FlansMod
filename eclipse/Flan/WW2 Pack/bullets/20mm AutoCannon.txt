@@ -13,8 +13,8 @@ RoundsPerItem 24
 MaxStackSize 1
 //The damage multiplier caused by the bullet on hitting an entity
 DamageVsLiving 5
-DamageVsVehicles 100
-DamageVsPlanes 250
+DamageVsVehicles 50
+DamageVsPlanes 200
 //Size of explosion caused
 Explosion 0
 //True if bullet explodes on hitting anything. Fuse denotes the maximum time it may spend in the air before detonating
@@ -33,8 +33,3 @@ SmokeTrail True
 //True if this is a bomb
 Bomb False
 Shell True
-RecipeOutput 3
-Recipe I ingotIron G gunpowder
-   
-GG
-II

@@ -72,7 +72,7 @@ AddRecipeParts rightTrack 2 wheel
 AddDye 10 gray
 //Health and collision
 SetupPart core 2500 -20 -8 -8 40 4 16
-SetupPart turret 200 -10 -4 -10 20 12 20
+SetupPart turret 2000 -10 -4 -10 20 12 20
 SetupPart leftTrack 100 -20 -8 -10 40 6 2
 SetupPart rightTrack 100 -20 -8 8 40 6 2
 BulletDetection 7

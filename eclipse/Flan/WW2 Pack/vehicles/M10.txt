@@ -9,11 +9,11 @@ RotateWheels True
 //Third Person Camera Distance
 CameraDistance 7.5
 //Throttle
-MaxThrottle 0.5
+MaxThrottle 0.65
 MaxNegativeThrottle 0.3
 //Steering modifiers
-TurnLeftSpeed 0.2
-TurnRightSpeed 0.2
+TurnLeftSpeed 0.4
+TurnRightSpeed 0.4
 //For calculating whether wheels are on the ground or not for driving
 WheelRadius 1.0
 //Wheel positions for collision handling. Tanks still have 4 wheels, they are just the corner ones.
@@ -42,11 +42,11 @@ Passenger 1 0 32 0 turret -360 360 -20 20 browning PassengerGun1
 RotatedPassengerOffset 1 -14 0 -9
 GunOrigin 1 5 20 -11
 BarrelPosition 75 28 0
-AddAmmo shell
-AddAmmo HEshell
+AddAmmo smallAPshell
+AddAmmo smallHEshell
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
-ShellDelay 100
+ShellDelay 70
 //Sounds
 StartSound TankIdle
 StartSoundLength 20
@@ -55,7 +55,7 @@ EngineSoundLength 60
 ShootSoundPrimary Tank3Shoot
 ShootSoundSecondary BrowningShoot
 TurretRotationSpeed 0.025
-DamageModifierPrimary 44
+DamageModifierPrimary 1.1
 //Recipe
 //Each section of the plane may have many parts
 //The sections are tailWheel, tail, bay, topWing, leftWingWheel, leftWing, rightWingWheel,
@@ -67,10 +67,10 @@ AddRecipeParts rightTrack 1 catTrack
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 10 green
 //Health and collision
-SetupPart core 9550 -61 -3 -15 114 28 30
-SetupPart turret 8550 -25 25 -25 50 18 50
-SetupPart leftTrack 7000 -61 -10 -28 112 17 13
-SetupPart rightTrack 7000 -61 -10 15 112 17 13
+SetupPart core 7000 -61 -3 -15 114 28 30
+SetupPart turret 6000 -25 25 -25 50 18 50
+SetupPart leftTrack 4000 -61 -10 -28 112 17 13
+SetupPart rightTrack 4000 -61 -10 15 112 17 13
 BulletDetection 7
 ModelScale 1.15
 Description American Tank Destroyer

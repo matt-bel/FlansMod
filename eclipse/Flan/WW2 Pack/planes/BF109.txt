@@ -14,19 +14,19 @@ RestingPitch 5.0
 //Mode : One of Plane, Heli or VTOL. The VTOL has a toggle button that switches some model aesthetics and the flight mode
 Mode Plane
 //Throttle
-MaxThrottle 1.5
+MaxThrottle 1.6
 MaxNegativeThrottle 0.0
 //Yaw modifiers
-TurnLeftSpeed 1.6
-TurnRightSpeed 1.6
+TurnLeftSpeed 1.7
+TurnRightSpeed 1.7
 //Pitch modifiers
 LookUpSpeed 1.5
-LookDownSpeed 1.0
+LookDownSpeed 1.3
 //Roll modifiers
 RollLeftSpeed 2.2
 RollRightSpeed 2.2
 //Drag 1.0 is standard. Modify to make the plane / heli more or less sluggish
-Drag 3.0
+Drag 1.4
 //Wheels
 NumWheels 3
 WheelPosition 0 42 -5 -15

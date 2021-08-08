@@ -67,7 +67,7 @@ AddRecipeParts backRightWheel 1 wheel
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 5 gray
 //Health and collision
-SetupPart core 3000 -46 -10 -13 72 29 27
+SetupPart core 2000 -46 -10 -13 72 29 27
 BulletDetection 5
 Description German light half-track gun tractor
 PassengerLegacyAiming 1 true

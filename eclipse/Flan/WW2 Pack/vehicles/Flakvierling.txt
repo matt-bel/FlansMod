@@ -73,7 +73,7 @@ AddRecipeParts core 1 blockIron 1 vehicleSeat
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 AddDye 5 gray
 //Health and collision
-SetupPart core 2000 -41 -10 -26 75 35 52
+SetupPart core 4000 -41 -10 -26 75 35 52
 SetupPart turret 500 -41 -10 -26 20 12 20
 BulletDetection 7
 ModelScale 1.5
