@@ -5,9 +5,5 @@ Icon HelicopterBlade
 Colour 255 255 255
 //Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
 Category Propeller
-StackSize 8
-RecipeOutput 1
-Recipe I ingotIron G ingotGold
-GII
-GII
+StackSize 16
    

@@ -11,8 +11,3 @@ UseRF True
 RFDrawRate 500
 WorksWith vehicles planes
 StackSize 4
-RecipeOutput 1
-Recipe R redstoneCoil I blockIron
- R 
-RIR
- R 

@@ -9,8 +9,3 @@ EngineSpeed 1.5
 FuelConsumption 1.8
 WorksWith vehicles planes
 StackSize 4
-RecipeOutput 1
-Recipe I blockIron P enginePiston
-PPP
-PIP
-PPP

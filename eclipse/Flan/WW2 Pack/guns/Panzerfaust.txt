@@ -25,3 +25,4 @@ DeployedModel None
 Model ww2.Panzerfaust
 Texture Panzerfaust
 DropItemOnShoot panzerfaust
+UsableByMechas false

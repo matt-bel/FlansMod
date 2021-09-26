@@ -5,9 +5,6 @@ Icon WoodenWing
 Colour 255 255 255
 //Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
 Category Wing
-StackSize 8
-RecipeOutput 2
-Recipe W biplaneWing
-  W
+StackSize 32
    
    

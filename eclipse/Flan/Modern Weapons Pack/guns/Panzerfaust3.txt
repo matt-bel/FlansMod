@@ -28,3 +28,4 @@ DropItemOnShoot panzerfaust3
 //Modifiers
 MoveSpeedModifier 0.6
 KnockbackModifier 0
+UsableByMechas false 

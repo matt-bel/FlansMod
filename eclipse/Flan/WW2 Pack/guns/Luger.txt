@@ -28,3 +28,4 @@ DeployedModel None
 Model ww2.Luger
 Texture Luger
 ModelScale 1
+UsableByMechas false

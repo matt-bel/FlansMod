@@ -5,9 +5,4 @@ Icon VehicleSeat
 Colour 255 255 255
 //Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
 Category Misc
-StackSize 8
-RecipeOutput 2
-Recipe I ingotIron L leather
- LI
-LLI
-III
+StackSize 32

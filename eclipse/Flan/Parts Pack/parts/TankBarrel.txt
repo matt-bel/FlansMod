@@ -5,9 +5,4 @@ Icon TankBarrel
 Colour 255 255 255
 //Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
 Category Misc
-StackSize 4
-RecipeOutput 1
-Recipe I ingotIron
-  I
-III
-  I
+StackSize 8

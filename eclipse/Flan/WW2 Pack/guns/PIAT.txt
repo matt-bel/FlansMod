@@ -28,3 +28,4 @@ ModelScale 0.7
 //Modifiers
 MoveSpeedModifier 0.6
 KnockbackModifier 0
+UsableByMechas false

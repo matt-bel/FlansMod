@@ -48,3 +48,4 @@ AddNode 12 -2 0 0 0 -60
 AddNode 6 -1 0 0 0 -30
 AddNode 3 0 0 0 0 -10
 AddNode 0 0 0 0 0 0
+UsableByMechas false 

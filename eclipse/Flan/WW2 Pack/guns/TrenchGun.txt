@@ -34,3 +34,4 @@ DeployedModel None
 Model ww2.Trenchgun
 Texture Trenchgun
 ModelScale 0.7
+UsableByMechas false

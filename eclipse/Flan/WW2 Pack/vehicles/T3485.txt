@@ -41,8 +41,8 @@ BarrelPosition 0 30 0
 //Secondary gun
 AddGun 8 34 8 turret dp28
 AllowAllAmmo False
-AddAmmo mediumAPShell
-AddAmmo mediumHEShell
+AddAmmo mediumAPshell
+AddAmmo mediumHEshell
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
 ShellDelay 90

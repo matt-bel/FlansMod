@@ -26,3 +26,4 @@ Deployable False
 DeployedModel None
 Model ww2.Type38
 Texture Type38
+UsableByMechas false

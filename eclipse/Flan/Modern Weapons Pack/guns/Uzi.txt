@@ -47,3 +47,4 @@ NumGenericAttachmentSlots 1
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
 Paintjob MiniUzi_Red MiniUzi_Red red 1
 Paintjob MiniUzi_Yellow MiniUzi_Yellow yellow 1
+UsableByMechas false 

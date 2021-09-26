@@ -26,3 +26,4 @@ Deployable False
 DeployedModel None
 Model ww2.Type100
 Texture Type100
+UsableByMechas false

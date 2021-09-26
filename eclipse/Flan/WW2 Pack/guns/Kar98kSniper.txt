@@ -29,3 +29,4 @@ Texture SkinKar98k
 ModelScale 0.7
 ZoomLevel 6.0
 FOVZoomLevel 1.0
+UsableByMechas false

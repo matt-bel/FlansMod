@@ -9,8 +9,3 @@ EngineSpeed 1.0
 FuelConsumption 1.0
 WorksWith vehicles planes
 StackSize 4
-RecipeOutput 1
-Recipe I ingotIron P enginePiston
-   
-PIP
-PIP

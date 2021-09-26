@@ -27,3 +27,4 @@ Texture Bazooka
 //Modifiers
 MoveSpeedModifier 0.6
 KnockbackModifier 0
+UsableByMechas false

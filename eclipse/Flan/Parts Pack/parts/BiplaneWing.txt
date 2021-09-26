@@ -6,8 +6,3 @@ Colour 255 255 255
 //Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
 Category Wing
 StackSize 8
-RecipeOutput 1
-Recipe W wood S stick
-WWW
-S S
-WWW

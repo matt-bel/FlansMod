@@ -38,8 +38,8 @@ RotatedDriverOffset -4 0 -8
 Passengers 0
 //GunOrigin 1 0 0 10
 BarrelPosition 0 34 0
-AddAmmo mediumAPShell
-AddAmmo mediumHEShell
+AddAmmo mediumAPshell
+AddAmmo mediumHEshell
 AllowAllAmmo false
 //Secondary gun
 AddGun 10 32 10 turret mg42

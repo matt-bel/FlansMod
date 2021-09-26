@@ -25,8 +25,5 @@ Mode FullAuto
 //Bullet speed, default 3.0
 BulletSpeed 10.0
 Scope None
-Deployable False
-add these lines: usableByMechas false
-UsableByMechas false
-UsableByPlayers false
-usableByPlayers false
+UsableByMechas False
+UsableByPlayers False

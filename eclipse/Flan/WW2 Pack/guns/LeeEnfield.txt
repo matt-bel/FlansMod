@@ -27,3 +27,4 @@ DeployedModel None
 Model ww2.Leeenfield
 Texture LeeEnfield
 ModelScale 0.7
+UsableByMechas false

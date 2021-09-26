@@ -5,9 +5,4 @@ Icon TriplaneWing
 Colour 255 255 255
 //Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
 Category Wing
-StackSize 8
-RecipeOutput 1
-Recipe W woodenWing S stick
- W 
-SWS
- W 
+StackSize 32

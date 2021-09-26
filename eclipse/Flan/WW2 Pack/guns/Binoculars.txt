@@ -25,3 +25,4 @@ ZoomLevel 16
 Deployable False
 DeployedModel None
 MeleeDamage 2
+UsableByMechas false

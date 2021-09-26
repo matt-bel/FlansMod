@@ -27,3 +27,4 @@ DeployedModel None
 Model ww2.M3A1GreaseGun
 Texture M3A1
 ModelScale 0.8
+UsableByMechas false

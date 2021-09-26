@@ -25,3 +25,4 @@ FOVZoomLevel 1.0
 Deployable False
 DeployedModel None
 MeleeDamage 10
+UsableByMechas false

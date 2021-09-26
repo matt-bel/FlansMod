@@ -26,3 +26,5 @@ Mode FullAuto
 BulletSpeed 10.0
 Scope None
 Deployable False
+UsableByMechas False
+UsableByPlayers False

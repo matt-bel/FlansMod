@@ -36,8 +36,8 @@ AddAmmo panzerfaustAmmo 1 ingotIron 2 gunpowder
 AddGun mg42 15 ingotIron 10 log
 AddAmmo mg42Ammo50 1 ingotIron 1 gunpowder
 AddAltAmmo mg42Ammo250 5 ingotIron 5 gunpowder
-AddGun MG151 26 ingotIron 10 log
-AddAmmo MG151Ammo 3 ingotIron 5 gunpowder
+AddGun Aircraft20mm 26 ingotIron 10 log
+AddAmmo Aircraft20mmAmmo 3 ingotIron 5 gunpowder
 AddGun flakvierling 4 aaBarrel 1 leather 1 blockIron 2 ingotIron
 AddAmmo flakvierlingAmmo 1 ingotIron 1 gunpowder
 AddGun stielhandgranate 2 ingotIron 2 gunpowder

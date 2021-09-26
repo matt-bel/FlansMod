@@ -48,3 +48,4 @@ NumGenericAttachmentSlots 1
 //Paintjob L86_Green L86_Green green 2
 //Paintjob L86_Red L86_Red red 2
 //Paintjob L86_Blue L86_Blue blue 2
+UsableByMechas false 

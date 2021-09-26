@@ -27,3 +27,4 @@ DeployedModel None
 Model ww2.M1carbine
 Texture M1Carbine
 ModelScale 0.8
+UsableByMechas false

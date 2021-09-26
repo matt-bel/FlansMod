@@ -39,8 +39,8 @@ Passengers 0
 //Passenger 1 0 34 0 turret -360 360 -15 60 bren Bren
 //GunOrigin 1 0 40 0
 BarrelPosition 0 34 0
-AddAmmo mediumAPShell
-AddAmmo mediumHEShell
+AddAmmo mediumAPshell
+AddAmmo mediumHEshell
 //Secondary gun
 AddGun 8 20 0 turret mg42
 //Delays are in ticks or 1/20ths of seconds

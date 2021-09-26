@@ -28,3 +28,4 @@ DropItemOnShoot at4
 //Modifiers
 MoveSpeedModifier 0.6
 KnockbackModifier 0
+UsableByMechas false 

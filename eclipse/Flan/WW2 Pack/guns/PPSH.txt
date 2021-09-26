@@ -27,3 +27,4 @@ DeployedModel None
 Model ww2.PPSH
 Texture PPSH
 ModelScale 1
+UsableByMechas false

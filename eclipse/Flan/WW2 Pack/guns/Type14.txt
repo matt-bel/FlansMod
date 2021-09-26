@@ -28,3 +28,4 @@ DeployedModel None
 Model ww2.Type14
 Texture Type14
 ModelScale 1.5
+UsableByMechas false

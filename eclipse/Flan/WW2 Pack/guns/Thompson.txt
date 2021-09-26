@@ -26,4 +26,5 @@ Deployable False
 DeployedModel None
 Model ww2.Thompson
 Texture Thompson
-ModelScale
+ModelScale 1.0
+UsableByMechas false

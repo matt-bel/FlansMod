@@ -30,8 +30,3 @@ Penetrates False
 SmokeTrail False
 //True if this is a bomb
 Bomb True
-RecipeOutput 1
-Recipe I ingotIron T tnt F flintAndSteel
-IFI
-ITI
- I 

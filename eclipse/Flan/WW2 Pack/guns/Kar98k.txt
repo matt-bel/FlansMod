@@ -32,3 +32,4 @@ AllowBarrelAttachments false
 AllowScopeAttachments true
 AllowStockAttachments false
 AllowGripAttachments false
+UsableByMechas false

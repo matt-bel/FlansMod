@@ -43,3 +43,4 @@ AllowScopeAttachments true
 AllowStockAttachments false
 AllowGripAttachments true
 NumGenericAttachmentSlots 1
+UsableByMechas false 

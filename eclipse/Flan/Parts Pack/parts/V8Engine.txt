@@ -9,5 +9,3 @@ EngineSpeed 1.4
 FuelConsumption 1.6
 WorksWith vehicles planes
 StackSize 4
-RecipeOutput 1
-ShapelessRecipe v4Engine v4Engine

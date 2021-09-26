@@ -44,3 +44,4 @@ NumGenericAttachmentSlots 1
 //Modifiers
 MoveSpeedModifier 0.6
 KnockbackModifier 0
+UsableByMechas false 

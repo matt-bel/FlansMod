@@ -28,3 +28,4 @@ ZoomLevel 6.0
 FOVZoomLevel 1.0
 Model ww2.Type38sniper
 Texture Type38
+UsableByMechas false

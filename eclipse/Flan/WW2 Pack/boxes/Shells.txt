@@ -13,7 +13,7 @@ III
 //And with parts from this mod, they are the shortName of the item
 //Guns cannot yet have multiple ammo types in the same slot. For now, just list them under two seperate guns that are the same
 //NumGuns must come before all the addGun lines and must be correct.
-NumGuns 4
+NumGuns 14
 AddGun 2Pdr 9 ingotIron
 AddAmmo British2pdrAPShell 1 ingotIron 1 gunpowder
 AddGun smallAPshell 2 ingotIron 1 gunpowder
@@ -26,3 +26,42 @@ AddGun modernAPshell 4 ingotIron 2 gunpowder
 AddGun modernHEshell 2 ingotIron 4 gunpowder
 AddGun ArtilleryHEShell 3 ingotIron 2 tnt
 AddGun 20mm 2 ingotIron 2 gunpowder
+AddGun smallBomb 3 ingotIron 3 gunpowder
+AddGun napalm 2 ingotIron 5 gunpowder 1 flintAndSteel
+AddGun largeBomb 4 ingotIron 2 tnt
+AddGun aaBarrel 3 ingotIron
+AddGun advancedMetalCockpit 32 ingotIron 6 glass 27 redstone
+AddGun advancedTankBody 45 ingotIron 30 redstone
+AddGun biplaneWing 6 log 3 string
+AddGun bombBay 1 log 6 ingotIron
+AddGun catTrack 25 ingotIron 6 leather
+AddGun fuelCan 1 ingotIron 3 coal
+AddGun gunShield 8 ingotIron 1 glass
+AddGun heavyTankBody 35 ingotIron 10 redstone 3 log 3 leather
+AddGun heavyTankTurret 20 ingotIron 3 glass 1 log 1 leather
+AddGun helicopterBlade 4 ingotGold 4 ingotIron
+AddGun helicopterSkid 16 ingotIron
+AddGun largeWheel 8 leather 2 ingotIron
+AddGun lightTankBody 20 ingotIron 7 redstone 2 log 2 leather
+AddGun lightTankTurret 10 ingotIron 1 glass 1 log 1 leather
+AddGun mediumTankBody 28 ingotIron 7 redstone 3 log 3 leather
+AddGun mediumTankTurret 15 ingotIron 1 glass 1 log 1 leather
+AddGun metalCockpit 8 ingotIron 2 glass
+AddGun metalNose 6 ingotIron
+AddGun metalPropeller 4 ingotIron
+AddGun metalTail 4 ingotIron 1 wool 1 log
+AddGun metalWingSmall 11 ingotIron 10 string
+AddGun passengerBay 12 ingotIron
+AddGun rotaryEngine 50 ingotIron 16 flint 8 redstone 8 coal 
+AddGun vehicleSeat 2 leather 3 ingotIron
+AddGun smallChassis 10 ingotIron 6 redstone 2 log 2 leather
+AddGun wheel 6 leather 1 ingotIron
+AddGun tankBarrel 7 ingotIron
+AddGun triplaneWing 4 log 8 string
+AddGun v4Engine 24 ingotIron 8 flint 4 redstone
+AddGun v6Engine 36 ingotIron 12 flint 6 redstone
+AddGun v8Engine 48 ingotIron 16 flint 8 redstone
+AddGun woodenCockpit 2 log 1 ingotIron
+AddGun woodenPropeller 1 ingotIron 1 log 1 string 1 redstone
+AddGun woodenTail 3 log
+AddGun woodenWing 3 log 3 string 1 wool

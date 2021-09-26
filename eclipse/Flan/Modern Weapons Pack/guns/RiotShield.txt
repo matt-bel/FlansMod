@@ -33,3 +33,4 @@ Texture RiotShield
 //Shield Settings
 //Format is Shield <Defense> <xOrigin> <yOrigin> <zOrigin> <width> <height> <depth> (all in model coordinates)
 Shield 1.0 4.0 -20.0 -8.0 1.0 32.0 16.0
+UsableByMechas false 

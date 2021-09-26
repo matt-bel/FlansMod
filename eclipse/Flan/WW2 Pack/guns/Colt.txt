@@ -28,3 +28,4 @@ DeployedModel None
 Model ww2.Colt
 Texture Colt
 ModelScale 0.7
+UsableByMechas false

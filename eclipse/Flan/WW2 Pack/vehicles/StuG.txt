@@ -43,8 +43,8 @@ RotatedPassengerOffset 1 0 0 0
 BarrelPosition 20 25 5
 //Secondary gun
 AllowAllAmmo False
-AddAmmo mediumAPShell
-AddAmmo mediumHEShell
+AddAmmo mediumAPshell
+AddAmmo mediumHEshell
 //Delays are in ticks or 1/20ths of seconds
 ShootDelay 1
 ShellDelay 90
