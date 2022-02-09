@@ -24,6 +24,7 @@ AddGun heavyAPshell 3 ingotIron 2 gunpowder
 AddGun heavyHEshell 2 ingotIron 3 gunpowder
 AddGun modernAPshell 4 ingotIron 2 gunpowder
 AddGun modernHEshell 2 ingotIron 4 gunpowder
+AddGun spicyrocket 30 ingotIron 17 tnt
 AddGun ArtilleryHEShell 3 ingotIron 2 tnt
 AddGun 20mm 2 ingotIron 2 gunpowder
 AddGun smallBomb 3 ingotIron 3 gunpowder

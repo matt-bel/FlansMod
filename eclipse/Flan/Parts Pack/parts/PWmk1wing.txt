@@ -1,0 +1,8 @@
+Name PWmk1 Wing
+ShortName PWmk1wing
+Icon opwing
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+//Categories are Cockpit, Wing, Engine, Propeller, Bay, Tail, Wheel, Chassis, Turret, Misc
+Category Wing
+StackSize 1

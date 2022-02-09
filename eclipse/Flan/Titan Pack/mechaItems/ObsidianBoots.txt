@@ -15,4 +15,4 @@ OOO
 Type feetUpgrade
 //The modifiers this item enacts on the mecha
 StopMechaFallDamage true
-ForceBlockFallDamage true
+ForceBlockFallDamage false

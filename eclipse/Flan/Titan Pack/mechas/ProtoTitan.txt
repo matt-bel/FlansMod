@@ -38,20 +38,13 @@ HeldItemScale 1
 //Recipe
 //Each section of the mecha may have many parts
 //The sections are core, leftArm, rightArm, hips, head
-AddRecipeParts core 1 smallIronBody
-AddRecipeParts leftArm 1 smallIronArm
-AddRecipeParts rightArm 1 smallIronArm
-AddRecipeParts hips 2 smallIronLeg
 //Dye colours are "black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"
-AddDye 5 black
-AddDye 1 orange
-Add Dye 1 yellow
 //Health and collision
-SetupPart core 3000 -12 24 -12 24 24 24
-SetupPart leftArm 600 -4 36 -24 16 8 8
-SetupPart rightArm 600 -4 36 24 16 8 -8
-SetupPart hips 3000 -8 0 -8 16 24 16
-//SetupPart head 2000 -7 -5 10 32 2 78
+SetupPart core 1 -12 24 -12 24 24 24
+SetupPart leftArm 1 -4 36 -24 16 8 8
+SetupPart rightArm 1 -4 36 24 16 8 -8
+SetupPart hips 1 -8 0 -8 16 24 16
+//SetupPart head 1 -7 -5 10 32 2 78
 BulletDetection 4
 //Height and Width for world collision
 Height 48
